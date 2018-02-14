@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  background:rgb(104, 205, 214);
+  color:#fff;
+  font-size: 13px;
+}
+
+img{
+  display: block;
+}
+
+.back{
+  margin-top: 15px;
+  margin-left: 15px;
+
+}
+
+.back img{
+  width: 45px;
+  height: 45px; 
+}
+
+.logo img{
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 170px;
+  height: 65px;
+}
+/*
+在调节屏幕大小时，图片总会闪一下
+.logo img{
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 170px;
+  height: 65px;
+} */
+
+.container{
+  width: 72vw;
+  margin: 0 auto;
+}
+
+.container .content{
+  margin-top: 80px;
+  margin-bottom: 160px;
+}
+
+.container .limg{
+  float: left;
+}
+
+.container .rimg{
+  float: right;
+}
+
+.container .limg p{
+  margin-left: -4px;
+}
+
+.container .rimg p{
+  margin-left: 13px;
+}
+
+.container .limg img,
+.container .rimg img{
+  width: 60px;
+  height: 60px;
+}
