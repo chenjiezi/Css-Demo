@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: rgb(239,240,244);
+}
+
+/* 切出来的图片的height有点大，我把图片的height设置小一点 */
+img{
+  height: 35px;
+}
+/* header */
+header a{
+  text-decoration: none;
+  color:#fff;
+}
+
+/* 将header用position：fixed;固定在屏幕顶部，
+如果屏幕可以滚动到下面，header依旧固定在顶部。 */
+header{
+  position: fixed;
+  width: 100vw;
+  height: 45px;
+  background: rgb(95,192,205);
+}
+
+header .text-left,
+header .text-right{
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+header .text-left{
+  float: left;
+  margin-left: 10px;
+}
+
+header .text-right{
+  float: right;
+  margin-right: 10px;
+}
+
+/* 绝对定位水平居中，然后用margin-top慢慢调到垂直居中。 */
+header .title{
+  position: absolute;
+  width: 32px;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #fff;
+}
+/* main */
+
+/* 因为header部分是脱离文档流，会导致下面的内容往上
+挤，所以我设置了padding-top:45px;header也跑到
+下面来，没弄明白 */
+.main{
+  padding-top: 45px;
+}
+
+.main .form{
+  position: relative;
+  background: #fff;
+  height: 55px;
+  margin: 10px 0;
+}
+
+/* iphone小图标 */
+.main .form .iphone{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+/* locked小图标*/
+.main .form .locked{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.main .form input{
+  color: #111;
+  height: 25px;
+  margin-top: 15px;
+  margin-left: 65px;
+  padding-left: 25px;
+  border-left: 1px solid #ccc;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+/* input标签的一个伪类 */
+.main .form input::placeholder{
+  color: #aaa;
+  font-size: 1.1em;
+}
+/* 登录按钮 */
+button{
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  width: 100vw;
+  height: 50px;
+  background: rgb(95,192,205);
+  border:none;
+  outline: none;
+}
+
+button:hover{
+  background: rgb(72, 195, 211);
+}
+
+/* footer */
+footer a{
+  display: block;
+  color:#5fc0cd;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
