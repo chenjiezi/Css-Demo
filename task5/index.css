@@ -100,7 +100,7 @@ main .item-list .item{
   border-bottom: 1px solid #000;
   font-size: 1.2em;
   line-height: 50px;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 main .item-list .item.title:before{
@@ -143,6 +143,7 @@ main .item.last-item{
   align-items: center;
   line-height: normal;
   margin-bottom: 60px;
+  padding: 10px 0;
 }
 
 main .last-item .d{
