@@ -1,0 +1,234 @@
+/* 去掉浏览器自带的margin */
+body{
+  margin: 0;
+}
+
+/* 按钮的修饰 */
+button{
+  border: none !important;
+  border-radius: 0px !important;
+  border-right:1px solid #ccc !important; 
+  border-bottom:1px solid #ccc !important; 
+  color: #aaa !important;
+}  
+
+/* 去掉li自带的一点 */
+li{
+  list-style-type: none;
+}
+
+/* ul有自带的padding-left */
+ul{
+  padding-left: 0;
+}
+
+
+
+/* header和footer */
+
+
+
+header,
+footer{
+  width: 100vw;
+  height: 55px;
+  position: fixed;
+  z-index: 1;
+}
+
+/* flex布局 */
+/* 在父元素上设置 display: flex;
+要水平居中的话设置 justify-content: center;
+要垂直居中的话设置 align-items: center;  */
+
+header{
+  top: 0;
+  background: rgb(94,192,206);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 如何将两个button交叉在一起？ */
+/* 在左button设置margin-right: -5px;
+    在右button设置margin-left: -5px;
+    就可以达到此效果 */
+
+header .a{
+  margin-right: -5px;
+  color: #ffffff;
+  background-color: rgba(0,0,0,.2);
+  border: none;
+}
+
+header .b{
+  margin-left: -5px;
+  color: rgb(94,192,206);
+  border: none;
+}
+
+.icon{
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  width: 30px;
+  height: 32px;
+  background: url(images/bg2.png) -75px -10px;
+}
+
+footer{
+  bottom: 0;
+  background: #fff;
+
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+
+footer .home{
+  width: 30px; 
+  height: 26px;
+  background: url(images/bg2.png) -60px -75px;
+
+  padding-top: 30px;
+  font-size: 12px;
+  color: rgb(94,192,206);
+}
+
+footer .write{
+  width: 45px; 
+  height: 45px;
+  background: url(images/bg2.png) -10px -10px;
+}
+
+footer .my{
+  width: 30px;
+  height: 26px;
+  background: url(images/bg2.png) -10px -75px;
+
+  padding-top: 29px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+
+
+/* 下拉框 */
+
+
+
+/* nav border不能做到跟效果图一样 */
+nav{
+  margin-top: -34px;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
+.box{
+  padding-left:0;
+  padding-right:0;
+}
+
+/* 去掉蓝色边框 */
+.box:focus,
+.btn:focus{
+  outline: none !important; 
+}
+
+.lists{
+  display: none;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.box:hover .lists{
+  display: block;
+  background: #fff;
+}
+
+
+.list:hover{
+  background: rgba(0,0,0,.05);
+}
+
+
+
+/* main */
+
+
+
+/* 增加margin的目的是把content控制在header，nav和footer之间 */
+main{
+  margin-top: 89px;
+  margin-bottom: 55px;
+}
+
+.items{
+  padding-bottom: 10px;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.ritem{
+  white-space: nowrap;
+  align-self: center;
+  color: red;
+  padding-right: 10px;
+}
+
+/* 父元素要设置溢出隐藏，子元素也要 */
+.litem{
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.litem > *{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: #aaaaaa;
+
+}
+
+.dates{
+  color:  #000;
+  padding-left: 25px;
+}
+
+
+
+.item .cal{
+  width: 20px;
+  height: 20px;
+  background: url(images/bg2.png) -125px -54px;
+}
+
+.item .coo{
+  width: 20px;
+  height: 24px;
+  background: url(images/bg2.png) -125px -10px;
+}
+
+.item .back{
+  width: 10px;
+  height: 17px;
+  background: url(images/bg2.png) -10px -121px;
+}
+
+.item .cal,
+.item .coo,
+.item .back{
+  display: inline-block;
+
+  /* 让背景图顶部对齐text的顶部 */
+  vertical-align: top;  
+}
