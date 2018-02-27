@@ -126,27 +126,36 @@ main {
     
 }
 
+/* 将小正方形自适应 */
+
+
 .item {
     display: inline-block;
-    height: 107.6px;
+    height: 30vw;
+    font-size: 5vw;
 }
 
 .item .box {
-    width: 80px;
+    width: 25vw;
+    height: 25vw;
     border: 3px solid #fff;
 }
 
+.box > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
 .box .box1 {
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
+    /* width自适应 */
+    height: 70%;
     background: #f5c97b;
 }
 
 .box .box2 {
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
+    /* width自适应 */
+    height: 30%;
     background: #83b09a;
 }
 
