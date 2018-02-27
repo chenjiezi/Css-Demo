@@ -1,0 +1,15 @@
+body{
+  font-family: Verdana, sans-serif;
+}
+
+img{
+  border-radius: 3px;
+}
+li{
+  list-style: none;
+  float: left;
+  margin-left: 40px;
+}
+.pic{
+  margin: 10px 0 50px 80px;
+}
