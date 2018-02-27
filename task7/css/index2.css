@@ -159,6 +159,15 @@ main {
     background: #83b09a;
 }
 
+.four {
+    align-items: flex-start;    
+    justify-content: space-around;
+    margin-top: 2vw;
+    margin-left: -1vw;
+    width: 25vw;
+    height: 10vw;
+}
+
 .four > * {
     display: inline-block;
 }
@@ -191,10 +200,9 @@ main {
     display: none;
 }
 
-.item:hover .four {
-    display: block;
+.box:hover .four {
+    display: flex;
 }
-
 
 
 /* footer */
