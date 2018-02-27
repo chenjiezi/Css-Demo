@@ -1,5 +1,11 @@
 a {
     display: inline-block;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
 }
 /* header */
 

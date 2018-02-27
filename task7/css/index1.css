@@ -4,6 +4,10 @@ body {
 a {
     display: inline-block;
 }
+
+a:hover {
+    text-decoration: none;
+}
 /* 1.mian布局右边的两个三角形使用绝对定位布局的 */
 
 /* header */
