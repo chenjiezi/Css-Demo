@@ -1,6 +1,11 @@
+body {
+    background: #29bde0;
+}
+
 a {
     display: inline-block;
 }
+
 header {
     position: fixed;
     display: flex;
@@ -115,7 +120,7 @@ nav .line1 {
 
 
 main {
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     background: #29bde0;
 }
 
