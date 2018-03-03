@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+}
+
+/* 在container中，弹性布局不起作用的原因？
+    原因是：container有两个伪类：before和：after
+    所以使用弹性布局会导致像是使用
+    justify-content: space-around;
+    而没有
+    justify-content: space-between;
+    的效果，原因是两个伪类加在一起进行弹性布局。
+    所以这里有两个方案：
+    要么仅仅去掉这里的两个伪类，就可以使用弹性布局
+    或者不去掉伪类，用浮动和line-height来完成效果图的
+    效果。这里两个伪类是为了避免父元素高度为0，来清除
+    浮动。但是我们有设置父元素的高度，所以不会导致
+    父元素的高度变为0.所以我选择第一种方案。
+    但footer和.copyright用弹性布局会比较方便
+    所以我去掉所有的container的两个伪类。
+    ps：因为container里面的子元素我不是使用浮动而且我
+    有设置父元素高度，所以不用担心父元素高度变为0。
+
+    栅格系统阻挡了我自己的想法，觉得不用bs了，自立根生。
+*/
+
+.container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+/* 去掉自带属性 */
+nav ul,
+footer ul {
+    -webkit-padding-start: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+/* 把li自带的属性去掉 */
+nav li,
+footer li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}   
+
+/* header */
+
+
+header .box{
+    height: 30px;
+    line-height: 30px;
+
+}
+
+header .call,
+header .login {
+    display: inline-block;
+}
+
+.login .sina {
+    width: 25px;
+    height: 24px;
+    background: url(../images/bg.png) -100px -122px;
+}
+
+.login .qq {
+    width: 25px;
+    height: 24px;
+    background: url(../images/bg.png) -55px -122px;
+}
+
+.login .wechat {
+    width: 25px;
+    height: 24px;
+    background: url(../images/bg.png) -10px -122px;
+}
+
+.login > * {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+header .call {
+    float: left;
+    color: #29b078;
+    font-weight: 600; 
+}
+
+header .login {
+    float: right;
+}
+
+
+
+/* nav */
+
+
+
+
+nav {
+    background: #29b078;
+}
+
+
+nav .logo {
+    width: 107px;
+    height: 49px;
+    background: url(../images/bg.png) -122px -10px;
+    align-self: center;
+}
+
+nav .box{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.navs > *{
+    padding: 30px 10px 35px 10px;
+    border-bottom: 2px solid #29b078;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.navs > *:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.navs a:hover {
+    text-decoration: none;
+}
+
+/* 
+这里不设置子元素为行内元素也可以实现弹性布局
+该不该设置呢 */
+nav .container > * {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+
+
+/* footer */
+/* .copyright */
+
+
+
+
+footer,
+.copyright {
+    background: #29b078;
+    color: #ffffff;
+}
+
+footer .box {
+    padding: 10px 0;
+}
+
+.two-dimension-code {
+    width: 92px;
+    height: 92px;
+    background: url(../images/bg.png) -10px -10px;
+}
+
+/* 版权 */
+.copyright {
+    border-top: 1px solid #ccc;
+    /* 这里看起来很舒服 */
+    font-size: .7rem;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* 不要固定宽度 */
+    /* height: 150px; */
+}
+
+footer .box > * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.change .title {
+    margin-bottom: 4.5vw;
+}
+
+.product .title {
+    margin-bottom: 2vw;
+}
+
+.product > *:nth-child(3) {
+    margin-top: 1vw;
+}
+
+.change .title,
+.product .title,
+.we .title {
+    font-weight: 550;
+}
+
+
+
+
+
