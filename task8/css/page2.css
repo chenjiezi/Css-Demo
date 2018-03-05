@@ -1,0 +1,140 @@
+
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.pic {
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* main */
+
+
+
+
+/* nav-bar */
+
+.nav-bar {
+    padding: 15px 0 15px 10px;
+}
+
+
+.cooperate {
+    display: inline-block;
+    color: #29b078;
+}
+
+
+
+
+
+.lsider .box,
+.rsider .box {
+    margin: 10px;
+    border: 1px solid #eee;
+}
+
+.lsider{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.rsider{
+    float: right;
+    width: 75%;
+    margin-bottom: 150px;
+}
+
+.lsider h4 {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+
+.company li {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.company li > * {
+    display: inline-block;
+}
+
+.company > *:nth-last-child(1) {
+    margin-bottom: 30px;
+}
+
+.company {
+    -webkit-padding-start: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    cursor: pointer;
+}
+
+.company .spot {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #ff650e;
+    border-radius: 50%;
+}
+
+.company .name {
+    color: #29b078;
+}
+
+.company li:hover .name{
+    color: #ff650e;
+}
+
+.company li:hover .spot{
+    background: #f9a372;
+}
+
+.rsider .title {
+    border-bottom: 1px solid #eee;
+    padding: 30px;
+
+}
+
+.rsider .tudou {
+    float: left;
+    width: 20%;
+    padding-top: 20px;
+}
+
+.rsider .text {
+    float: left;
+    width: 80%;
+    text-indent: 30px;
+}
+
+.rsider .article {
+    padding: 30px;
+}
+
+.rsider .article > * {
+    text-indent: 30px;
+    margin-bottom: 30px;
+}
+
+.rsider .article > *:nth-last-child(1) {
+    margin-bottom: 100px;
+}
+
+
+
+

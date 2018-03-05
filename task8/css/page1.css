@@ -5,14 +5,6 @@
 
 
 
-/* 给父元素清楚浮动 */
-.clearfix:before,
-.clearfix:after {
-    display: block;
-    content: " ";
-    clear: both;
-}
-
 main > * {
     padding-top: 50px;
 }
@@ -130,8 +122,6 @@ main .title {
 
 
 
-.study .box {
-}
 
 
 .study .icon {
@@ -251,7 +241,12 @@ main .title {
 }
 
 .links li a {
-    color: #cccccc !important;
+    color: #cccccc ;
+    text-decoration: none;
+}
+
+.links li:hover a {
+    text-decoration: underline;
 }
 
 

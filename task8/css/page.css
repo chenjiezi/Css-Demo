@@ -2,6 +2,15 @@ body {
     margin: 0;
 }
 
+/* 给父元素清楚浮动 */
+.clearfix:before,
+.clearfix:after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+
 /* 在container中，弹性布局不起作用的原因？
     原因是：container有两个伪类：before和：after
     所以使用弹性布局会导致像是使用
@@ -43,22 +52,24 @@ footer li {
     display: inline-block;
 }
 
-a {
-    color: #ffffff;
+nav a,
+footer a {
     text-decoration: none;
+    color: #ffffff;
 }
 
-a:hover {
-    color: #ffffff;
+nav a:hover,
+footer a:hover {
     text-decoration: underline;
+    color: #ffffff;
 }   
 
 /* header */
 
 
 header .box{
-    height: 30px;
-    line-height: 30px;
+    height: 40px;
+    line-height: 40px;
 
 }
 
