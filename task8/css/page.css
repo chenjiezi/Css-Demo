@@ -2,6 +2,36 @@ body {
     margin: 0;
 }
 
+.container:after,
+.container::before {
+    display: none;
+}
+
+
+/* carousel */
+
+.carousel-control.left,
+.carousel-control.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control.left .icon{
+    width: 27px;
+    height: 46px;
+    background: url(../images/8-1/bg8-1.png) -153px -77px;
+}
+
+.carousel-control.right .icon{
+    width: 27px;
+    height: 46px;
+    background: url(../images/8-1/bg8-1.png) -153px -10px;
+}
+
+
+
+
 /* 给父元素清楚浮动 */
 .clearfix:before,
 .clearfix:after {

@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <!-- header，nav，footer，copyright共用样式 -->
     <link rel="stylesheet" href="css/page.css">
     <!-- 本页面的样式 -->
@@ -24,6 +29,7 @@
     </header>
     
     <nav>
+
         <div class="container box">
             <div class="logo"></div>
             <ul class="navs">
@@ -41,12 +47,43 @@
                 </li>
             </ul>
         </div>
+
+        
     </nav>
 
-    <!-- 轮播 -->
-    <div class="carousel"></div>
+<!-- 轮播 -->
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>   
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/8-1/pic.png" >
+                </div>
+                <div class="item">
+                    <img src="images/8-1/pic.png" >
+                </div>
+                <div class="item">
+                    <img src="images/8-1/pic.png" >
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                <div class="icon"></div>
+            </a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                <div class="icon"></div>
+            </a>
+        </div> 
+
+
     
     <main>
+        
         <!-- 教学优势 -->
         <div class="intro container clearfix">
 
@@ -383,12 +420,13 @@
                 <div class="two-dimension-code"></div>
             </div>
         </div>
-    </footer>
-    
-    <!-- 版权 -->
-    <div class="copyright">
-        <div class="text">Copyright © 2015技能树 www.jnshu.com All Rights Reserved | 京ICP</div>
+        <!-- 版权 -->
+        <div class="copyright">
+            <div class="text">Copyright © 2015技能树 www.jnshu.com All Rights Reserved | 京ICP</div>
         </div>
+        
+    
+    </footer>
     
 </body>
 </html>
