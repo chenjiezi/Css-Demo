@@ -109,21 +109,21 @@ header .login {
 }
 
 .login .sina {
-    width: 25px;
-    height: 24px;
-    background: url(../images/bg.png) -100px -122px;
+    width: 27px;
+    height: 26px;
+    background: url(../images/bg.png) -57px -122px;
 }
 
 .login .qq {
-    width: 25px;
-    height: 24px;
-    background: url(../images/bg.png) -55px -122px;
+    width: 27px;
+    height: 26px;
+    background: url(../images/bg.png) -10px -122px;
 }
 
 .login .wechat {
-    width: 25px;
-    height: 24px;
-    background: url(../images/bg.png) -10px -122px;
+    width: 27px;
+    height: 26px;
+    background: url(../images/bg.png) -104px -122px;
 }
 
 .login > * {
