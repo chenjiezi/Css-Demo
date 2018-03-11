@@ -11,6 +11,7 @@ a {
 }
 
 a:hover {
+    color: #000;
     text-decoration: underline;
 }
 
@@ -41,12 +42,21 @@ a:hover {
 .rsider .box {
     margin: 10px;
     border: 1px solid #eee;
+    text-align: center;
 }
 
 .lsider{
     float: left;
     width: 25%;
+}
+
+.company {
     text-align: center;
+}
+
+.company .ul-box {
+    display: inline-block;
+    text-align: left;
 }
 
 .rsider{

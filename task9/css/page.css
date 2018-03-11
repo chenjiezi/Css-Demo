@@ -255,6 +255,12 @@ nav .menu {
     display: none;
 }
 
+/* links */
+    
+.links .content ul {
+    -webkit-padding-start: 0;
+}
+
 @media screen and (max-width: 1024px) {
     /* 第三个页面 */
 
@@ -459,8 +465,6 @@ nav .menu {
 
 
 }
-
-
 
 
 @media screen and (max-width: 560px) {
