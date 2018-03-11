@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="css/carousel/bootstrap.min.css">
+	<script src="css/carousel/jq.min.js"></script>
+	<script src="css/carousel/bs.min.js"></script>
+
+    <!-- header，nav，footer，copyright共用样式 -->
+    <link rel="stylesheet" href="css/page.css">
+    <!-- 本页面的样式 -->
+    <link rel="stylesheet" href="css/page1.css">
+    <title>技能树首页</title>
+</head>
+<body>
+
+    <header>
+        <div class="container box">
+            <div class="call">客服热线：010-594-78634</div>
+            <div class="login">
+                <div class="sina"></div>
+                <div class="qq"></div>
+                <div class="wechat"></div>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+
+        <div class="container box">
+
+            <div class="logo"></div>
+
+            <!-- toggle(开关) -->
+            <input id="check-box" type="checkbox">
+
+            <ul class="navs">
+                <li>
+                    <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="index3.html">职业</a>
+                </li>
+                <li>
+                    <a href="index2.html">推荐</a>
+                </li>
+                <li>
+                    <a href="#">关于</a>
+                </li>
+            </ul>
+
+            <label for="check-box" class="menu">
+                <img src="images/menu.png" alt="">
+            </label>
+
+        </div>
+        
+    </nav>
+
+<!-- 轮播 -->
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>   
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/8-1/pic.png" >
+                </div>
+                <div class="item">
+                    <img src="images/8-1/pic.png" >
+                </div>
+                <div class="item">
+                    <img src="images/8-1/pic.png" >
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                <div class="icon"></div>
+            </a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                <div class="icon"></div>
+            </a>
+        </div> 
+
+    
+    <main>
+        
+        <!-- 教学优势 -->
+        <div class="intro container clearfix">
+
+            <div class="item">
+                <div class="rocket">
+                    <div class="icon"></div>
+                    <div class="title">高效</div>
+                </div>
+                <div class="text">将五到七年的成长时间，缩短到一年三年。</div>
+            </div>
+
+            <div class="item">
+                <div class="book">
+                    <div class="icon"></div>
+                    <div class="title">规范</div>
+                </div>
+                <div class="text">标准的实战教程，不会走弯路</div>
+            </div>
+
+            <div class="item">
+                <div class="shape">
+                    <div class="icon"></div>
+                    <div class="title">人脉</div>
+                </div>
+                <div class="text flag">同班好友，同院学长，技术大师，入学就混入职脉圈，为以后铺平道路。</div>
+            </div>
+
+            <div class="item jiade">
+                <div class="online">
+                    <div class="box">
+                        <div class="user"></div>
+                        <div class="num">12400</div>
+                    </div>
+                    <div class="text">累计在线学习人数</div>
+                </div>
+                <div class="student">
+                    <div class="box">
+                        <div class="user"></div>
+                        <div class="num">12400</div>
+                    </div>
+                    <div class="text">学员已经找到满意工作</div>
+                </div>
+            </div>
+            
+            </div>
+
+        <!-- 如何学习 -->
+        <div class="study container clearfix">
+            <div class="title">如何学习</div>
+            <div class="box clearfix">
+                <div class="item">
+                    <div class="num">
+                        1
+                    </div>
+                    <div class="text">
+                        匹配你现在的个人情况寻找适合自己的岗位
+                    </div>
+                    <div class="icon"></div>
+                </div>
+                <div class="item">
+                    <div class="num">
+                        2
+                    </div>
+                    <div class="text">
+                            了解职业前景薪金待遇、竞争压力等
+                    </div>
+                    <div class="icon"></div>
+                </div>
+                <div class="item">
+                    <div class="num">
+                        3
+                    </div>
+                    <div class="text">
+                            掌握行业内顶级技能
+                    </div>
+                    <div class="icon"></div>
+                </div>
+                <div class="item">
+                    <div class="num">
+                        4
+                    </div>
+                    <div class="text">
+                            查看职业目标任务
+                    </div>
+                    <div class="icon"></div>
+                </div>
+            </div>
+            <div class="box clearfix">
+                <div class="item">
+                    <div class="num">
+                        5
+                    </div>
+                    <div class="text">
+                            参考学习资料，掌握技能点，逐个完成任务
+                    </div>
+                    <div class="icon"></div>
+                </div>
+                <div class="item">
+                    <div class="num">
+                        6
+                    </div>
+                    <div class="text">
+                            加入班级，和小伙伴们互帮互助，一块学习
+                    </div>
+                    <div class="icon"></div>
+                </div>
+                <div class="item">
+                    <div class="num">
+                        7
+                    </div>
+                    <div class="text">
+                            选择导师，一路引导，加速自己成长
+                    </div>
+                    <div class="icon"></div>
+                </div>
+                <div class="item">
+                    <div class="num">
+                        8
+                    </div>
+                    <div class="text">
+                            完成职业技能，升级业界大牛
+                    </div>
+                    <div class="icon"></div>
+                </div>
+            </div>
+                
+            </div>
+
+        <!-- 优秀学员 -->
+        <div class="students container  clearfix">
+
+            <div class="title">优秀学院展示</div>
+
+                <!-- 当我给每个item设定width：25%；时，每一块的border外面有margin，因为几块加起来的width为100%
+                如果在外面加margin，会导致item元素换行，所以我想到个办法，让在item里面再包含一个div然后给它
+                设置border，这样原要给item加margin的，改为给item加padding，只要把item申明为非标准模型，就
+                不会导致item换行了。 -->
+                <div class="item">
+                    <div class="box">
+                        <div class="portrait">
+                                <img src="images/8-1/portrait.png" alt="">
+                        </div>
+                        <div class="name">技术顾问:罗大佐</div>
+                        <div class="text">百度技术总监：互联网基础服务领域，从事虚拟主机，云服务器
+                            ，域名。曾任新网高级技术经理，负责技术研发，团队管理与建设。
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="box">
+                        <div class="portrait">
+                                <img src="images/8-1/portrait.png" alt="">
+                        </div>
+                        <div class="name">技术顾问:罗大佐</div>
+                        <div class="text">百度技术总监：互联网基础服务领域，从事虚拟主机，云服务器
+                            ，域名。曾任新网高级技术经理，负责技术研发，团队管理与建设。
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="box">
+                        <div class="portrait">
+                                <img src="images/8-1/portrait.png" alt="">
+                        </div>
+                        <div class="name">技术顾问:罗大佐</div>
+                        <div class="text">百度技术总监：互联网基础服务领域，从事虚拟主机，云服务器
+                            ，域名。曾任新网高级技术经理，负责技术研发，团队管理与建设。
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="box">
+                        <div class="portrait">
+                                <img src="images/8-1/portrait.png" alt="">
+                        </div>
+                        <div class="name">技术顾问:罗大佐</div>
+                        <div class="text">百度技术总监：互联网基础服务领域，从事虚拟主机，云服务器
+                            ，域名。曾任新网高级技术经理，负责技术研发，团队管理与建设。
+                        </div>
+                    </div>
+                </div>
+
+            
+
+         </div>
+        
+        <!-- 合作企业 -->
+        <div class="cooperate container clearfix">
+            
+            <div class="title">战略合作企业</div>
+            
+            <div class="content clearfix">
+                <div class="item">
+                    <div class="ali">
+                        <img src="images/8-1/ali.png" alt="">                    
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="jinshan">
+                        <img src="images/8-1/jinshan.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="huanxin">
+                        <img src="images/8-1/huanxin.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="ronglian">
+                        <img src="images/8-1/ronglian.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="qiniu">
+                        <img src="images/8-1/qiniu.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+        <!-- 友情链接 -->
+        <div class="links container clearfix">
+            <div class="title">友情链接</div>
+            <div class="content clearfix">
+                <div class="item">
+                    <ul>
+                        <li><a href="#">找工作</a></li>
+                        <li><a href="#">找工作</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul>
+                        <li><a href="#">教育招聘</a></li>
+                        <li><a href="#">教育招聘</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul>
+                        <li><a href="#">找工作</a></li>
+                        <li><a href="#">找工作</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul>
+                        <li><a href="#">教育招聘</a></li>
+                        <li><a href="#">教育招聘</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul>
+                        <li><a href="#">找工作</a></li>
+                        <li><a href="#">找工作</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul>
+                        <li><a href="#">教育招聘</a></li>
+                        <li><a href="#">教育招聘</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul>
+                        <li><a href="#">找工作</a></li>
+                        <li><a href="#">找工作</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul>
+                        <li><a href="#">教育招聘</a></li>
+                        <li><a href="#">教育招聘</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul>
+                        <li><a href="#">找工作</a></li>
+                        <li><a href="#">找工作</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul>
+                        <li><a href="#">教育招聘</a></li>
+                        <li><a href="#">教育招聘</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+
+    </main>
+    
+    <footer>
+
+        <div class="container box">
+            <div class="change">
+                <div class="title">技能树——改变你我</div>
+                <ul>
+                    <li>
+                        <a href="#">关于我们</a>
+                    </li>
+                    <span>|</span>
+                    <li>
+                        <a href="#">联系我们</a>
+                    </li>
+                    <span>|</span>
+                    <li>
+                        <a href="#">合作公司</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="product">
+                <div class="title">旗下网站</div>
+                <ul>
+                    <li>
+                        <a href="#">草船云孵化器</a>
+                    </li>
+                    <li>
+                        <a href="#">最强IT训练营</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">葡萄藤轻游戏</a>
+                    </li>
+                    <li>
+                        <a href="#">桌游精灵</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="we">
+                <div class="title">微信公众平台</div>
+                <div class="two-dimension-code"></div>
+            </div>
+        </div>
+        <!-- 版权 -->
+        <div class="copyright">
+            <div class="text">Copyright © 2015技能树 www.jnshu.com All Rights Reserved | 京ICP</div>
+        </div>
+        
+    
+    </footer>
+    
+</body>
+</html>

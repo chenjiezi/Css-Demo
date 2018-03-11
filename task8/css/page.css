@@ -68,7 +68,7 @@ body {
 }
 
 /* 去掉自带属性 */
-nav ul,
+nav ul, 
 footer ul {
     -webkit-padding-start: 0;
     -webkit-margin-before: 0;
