@@ -1,0 +1,398 @@
+
+
+/* header */
+    header {
+        background-color: #1d7ad9;
+    }
+
+    header .box > * {
+        display: inline-block;
+    }
+
+    header .tell {
+        float: left;
+        color: #ffffff;
+        line-height: 36px;
+    }
+
+    header .login {
+        float: right;
+    }
+
+    header .login > button {
+        border: none;
+        background-color: #1d7ad9;
+        color: #fff;
+        padding-top: 10px;
+        border-radius: 0px;
+    }
+
+    header .login > *:hover {
+        color: #000000;
+        padding-left: 30px;
+        padding-right: 30px;
+        background: #fff;    
+    }
+
+/* nav */
+
+
+    nav {
+        background-color: #f9f9f9;
+    }
+
+    nav .boxaa {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav .boxaa > * {
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+/* step */
+
+
+
+    .step .box {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .step .box > * {
+        display: inline-block;
+    }
+
+    .box .sbox {
+        cursor: pointer;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .box .sbox .num {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .box .sbox .num span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #ccc;
+        color: #fff;
+    }
+
+    .box .sbox .num:before,
+    .box .sbox .num:after {
+        content: " ";
+        width: 5vw;
+        height: 5px;
+        background: #ccc;
+    }
+
+    .box .sbox .num:before {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-left: -1px;
+    }
+
+    .box .sbox .num:after {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .box .sbox .text {
+        color: #ccc;
+    }
+
+    .box .sbox:hover .text {
+        color: #ff7f02;
+    }
+
+    .box .sbox:hover .num:after,
+    .box .sbox:hover .num:before,
+    .box .sbox:hover span {
+        background-color: #ff7f02;
+    }
+
+    .sbox.flag .num span,
+    .sbox.flag .num:after,
+    .sbox.flag .num:before {
+        background-color: #ff7f02;
+    }
+
+    .sbox.flag .text {
+        color: #ff7f02;
+    }
+
+
+
+/* footer */
+
+    footer .container:before,
+    footer .container:after {
+        display: none;
+    }
+
+    footer .box {
+        display: flex;
+        justify-content: space-between;
+        color: #cccccc;
+    }
+
+    footer .title {
+        font-size: 15px;
+        color: #999999;
+    }
+
+    .links-box > * {
+        display: inline-block;
+        padding: 0px 5px 10px 5px;
+    }
+
+    .links-box a {
+        color: #ccc;
+    }
+
+    .links-box a:hover {
+        color: #337ab7;
+    }
+
+    .way .two-demension-code {
+        width: 92px;
+        height: 92px;
+        background: url(bg.png) -10px -10px;
+    }
+
+    footer .contact > * {
+        display: inline-block;
+    }
+
+    .contact .ways {
+        vertical-align: top;
+    }
+
+    .contact .ways > * {
+        padding-bottom: 10px;
+    }
+
+    .ways .phone {
+        padding-top: 5px;
+    }
+
+
+/* copyright */
+
+    .copyright {
+        background-color: #1d7ad9;
+    }
+
+    .copyright .box {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .copyright .box > * {
+        margin-left: 2px;
+        margin-right: 2px;
+        color: #ffffff;
+    }
+
+/* main */
+
+
+    main .title {
+        border-left: 3px solid #1d7ad9;
+        padding-left: 3px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    main .item {
+        border: 1px solid #ccc;
+        border-bottom: none;
+    }
+
+    main .next {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        border: 1px solid #ccc;
+        margin-bottom: 150px;
+    }
+
+    main .next button {
+        width: 150px;
+    }
+
+    .xiangxing .icon {
+        width: 19px;
+        height: 15px;
+        background: url(bg.png) -10px -122px;
+    }
+
+    .chicun .icon {
+        width: 22px;
+        height: 20px;
+        background: url(bg.png) -122px -10px;
+    }
+
+    .caizhi .icon {
+        width: 15px;
+        height: 20px;
+        background: url(bg.png) -122px -50px;
+    }
+
+    .xiangxing > *,
+    .chicun > *,
+    .caizhi > * {
+        display: inline-block;
+    }
+
+    .xiangxing,
+    .chicun,
+    .caizhi {
+        padding: 10px;
+        background-color: #f3f3f3;
+        color: #1d7ad9;
+    }
+
+    main .icon {
+        vertical-align: top;
+        transform: scale(.8);
+    }
+
+    main .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    main .content > * {
+        display: inline-block;
+    }
+
+    main .content .box > *{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    main .content select {
+        width: 150px;
+    }
+
+    main input[type = "number"] {
+        width: 50px;
+    }
+
+    .radio-inline + .radio-inline {
+        margin-left: 0 !important;
+    }
+
+    .mm {
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .box1 {
+        margin-bottom: 30px;
+    }
+
+
+
+
+/* 响应式 */
+
+#box-checkbox {
+    display: none;
+}
+
+.toggle {
+    display: none;
+}
+
+    @media screen and (max-width: 640px) {
+
+        header .tell {
+            font-size: 10px;
+        }
+
+
+        .box1 > *,
+        .box2 > * {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .box1,
+        .box2 {
+            white-space: nowrap;
+        }
+
+
+        .box .sbox .num:before,
+        .box .sbox .num:after {
+
+            width: 28px;
+        }
+
+        .box .sbox .num span {
+            width: 15px;
+            height: 15px;
+            font-size: 13px;
+        }
+
+        .box .sbox .text {
+            font-size: 13px;
+        }
+
+
+
+
+    }
+
+    @media screen and (max-width: 500px) {
+        nav {
+            position: relative;
+            width: 100%;
+        }
+
+        nav .boxaa {
+            display: none;
+        }
+
+        nav .boxaa > * {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .toggle {
+            display: block;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .step {
+            margin-top: 30px;
+        }
+
+        #box-checkbox:checked ~ div {
+            display: block;
+        }
+
+    }
