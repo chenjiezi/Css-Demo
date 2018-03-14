@@ -151,6 +151,7 @@
 
     footer .title {
         font-size: 15px;
+        font-weight: 600;
         color: #999999;
     }
 
@@ -216,6 +217,7 @@
         padding-left: 3px;
         margin-bottom: 20px;
         font-size: 15px;
+        font-weight: 600;
     }
 
     main .item {
@@ -284,13 +286,18 @@
         display: inline-block;
     }
 
-    main .content .box > *{
+    main .content label{
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    main .content select {
-        width: 150px;
+    main .content .select-style {
+        width: 105px;
+        -webkit-appearance: none;
+        background: url(a.png) no-repeat;
+        background-size: 15%;
+        background-position-x: 95%;
+        background-position-y: 50%;
     }
 
     main input[type = "number"] {
@@ -311,7 +318,50 @@
         margin-bottom: 30px;
     }
 
+    .icon1 {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        background: #fff;
+        vertical-align: top;
+    }
 
+    #abc,
+    #abd,
+    #abe,
+    #abf,
+    #abg,
+    .san {
+        display: none;
+    }
+
+
+    #abc:checked + .a .icon1{
+        border: 4px solid #1d7ad9;
+    }
+    #abd:checked + .a .icon1{
+        border: 4px solid #1d7ad9;
+    }
+    #abe:checked + .a .icon1{
+        border: 4px solid #1d7ad9;
+    }
+    #abf:checked + .a .icon1{
+        border: 4px solid #1d7ad9;
+    }
+    #abg:checked + .a .icon1{
+        border: 4px solid #1d7ad9;
+    }
+
+        
+    #san-1:checked + .a .icon1,
+    #san-2:checked + .a .icon1,
+    #san-3:checked + .a .icon1,
+    #san-4:checked + .a .icon1,
+    #san-5:checked + .a .icon1 {
+        border: 4px solid #1d7ad9;
+    }
 
 
 /* 响应式 */
@@ -364,20 +414,35 @@
 
     }
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 520px) {
+
+        main label {
+            display: block;
+        }
+
         nav {
             position: relative;
             width: 100%;
         }
 
+        .zhan {
+            height: 40px;
+        }
+
         nav .boxaa {
             display: none;
         }
-
+        
         nav .boxaa > * {
+            margin: 0;
             display: block;
-            margin-top: 10px;
-            margin-bottom: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 100%;
+            border: none;
+            outline: none;
+            border-radius: 0;
+            border-bottom: 1px solid #ccc;
         }
 
         .toggle {
@@ -395,4 +460,7 @@
             display: block;
         }
 
+        footer .box {
+            display: block;
+        }
     }
