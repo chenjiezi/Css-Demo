@@ -1,0 +1,79 @@
+$background: #5fc0cd;
+$input-background: #fff;
+$color: #fff;
+$px-10: 10px;
+
+body {
+    margin: 0;
+    background: #eee;
+}
+
+a {
+    text-decoration: none;
+    color: $color;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: $px-10 * 5;
+    background: $background;
+
+    a {
+        padding-left: $px-10;
+        padding-right: $px-10;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 16px;
+        color: $color;
+    }
+}
+
+main {
+    .iphone,
+    .locked {
+        margin-top: $px-10;
+        margin-bottom: $px-10;
+        height: $px-10 * 5;
+        background: $input-background;
+    }
+
+    img {
+        vertical-align: middle;
+        margin-left: $px-10;
+        margin-right: $px-10;
+        transform: scale(.7);
+    }
+
+    input {
+        border: 1px solid transparent;
+        border-left: 1px solid #999;
+        padding-left: $px-10;
+        height: 20px;
+        outline: none;
+    }
+
+}
+
+footer {
+    button {
+        width: 100vw;
+        height: $px-10 * 4.5;
+        border: none;
+        font-size: 16px;
+        letter-spacing: $px-10 * .5;
+        background: $background;
+        color: $color;
+    }
+
+    a {
+        float: right;
+        margin-top: $px-10;
+        font-size: 14px;
+        color: #5fc0cd;
+    }
+}
