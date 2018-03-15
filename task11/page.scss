@@ -1,6 +1,5 @@
-$background: #5fc0cd;
-$input-background: #fff;
-$color: #fff;
+$blue: #5fc0cd;
+$white: #fff;
 $px-10: 10px;
 
 body {
@@ -10,7 +9,7 @@ body {
 
 a {
     text-decoration: none;
-    color: $color;
+    color: $blue;
 }
 
 header {
@@ -19,7 +18,7 @@ header {
     align-items: center;
     width: 100vw;
     height: $px-10 * 5;
-    background: $background;
+    background: $blue;
 
     a {
         padding-left: $px-10;
@@ -29,7 +28,7 @@ header {
     .title {
         font-weight: 600;
         font-size: 16px;
-        color: $color;
+        color: $white;
     }
 }
 
@@ -39,7 +38,7 @@ main {
         margin-top: $px-10;
         margin-bottom: $px-10;
         height: $px-10 * 5;
-        background: $input-background;
+        background: $white;
     }
 
     img {
@@ -66,14 +65,14 @@ footer {
         border: none;
         font-size: 16px;
         letter-spacing: $px-10 * .5;
-        background: $background;
-        color: $color;
+        background: $blue;
+        color: $white;
     }
 
     a {
         float: right;
         margin-top: $px-10;
         font-size: 14px;
-        color: #5fc0cd;
+        color: $blue;
     }
 }
