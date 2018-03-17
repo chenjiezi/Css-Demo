@@ -1,0 +1,197 @@
+$blue: #5ac0ce;
+$white: #ffffff;
+$grey: #cccccc;
+$border: 2px solid $blue;
+
+@mixin inline-block {
+    & > * {
+        display: inline-block;
+    }
+}
+
+
+
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+    width: 100vw;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+
+    background: $blue;
+
+    @include inline-block;
+
+    .back {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 10px;
+
+        // 让绝对定位垂直居中
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 10px;
+        height: 15px;
+    }
+
+    .title {
+        color: $white;
+    }
+
+}
+
+main {
+    margin-top: 55px;
+    margin-bottom: 60px;
+
+    .list-title {
+        padding: 40px 0 40px 20px;
+        background-image: url(images-1/bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: $white;
+        
+        @include inline-block;
+
+        .portrait {
+            width: 80px;
+            height: 80px;
+            vertical-align: top;
+        }
+
+        .information {
+            margin-top: 20px;
+            margin-left: 10px;
+            font-size: 13px;
+            
+            .box {
+                @include inline-block;
+            }
+
+            .address {
+                margin-top: 10px;
+            }
+            
+            .add {
+                width: 15px;
+                vertical-align: top;
+            }
+
+        }
+    
+    
+    }
+
+    .list-group {
+        margin-left: 13px;
+        font-size: 13px;
+
+        & > * {
+            padding: 20px 0 20px 10px;
+            border-bottom: 1px solid $grey;
+
+            @include inline-block;
+
+        }
+        
+        .profession .text {
+            padding-left: 10px;
+            border-left: 3px solid $blue;
+        }
+
+        .deal {
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+            .deal-1 {
+                margin-right: 10px;
+            }
+
+            .deal-1 {
+                @include inline-block;
+            }
+
+            .star {
+                margin-right: -3px;
+                vertical-align: middle; 
+                transform: scale(.8);
+            }
+
+        }
+
+        .title.flag {
+            padding-right: 10px;
+            margin-right: 10px;
+            border-right: 1px solid $grey;
+            color: $grey;
+        }
+
+        .price .content {
+            color: red;
+            font-weight: 560;
+        }
+
+        .intro {
+            display: flex;
+            justify-content: flex-start;
+
+            .title {
+                white-space: nowrap;
+                align-self: center;
+            }
+
+            .content {
+                padding-right: 50px;
+            }
+
+        }
+
+
+    }
+
+
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 60px;
+    background: $white;
+
+    button {
+        width: 47vw;
+        height: 40px;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        border-radius: 5px
+    }
+    
+    .message {
+        background: $white;
+        color: $blue;
+        border: $border;
+    }
+
+    .call {
+        background: $blue;
+        border: $border;
+        color: $white;        
+    }
+
+}

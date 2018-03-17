@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  background: #5ac0ce;
+}
+
+header > * {
+  display: inline-block;
+}
+
+header .back {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 10px;
+  height: 15px;
+}
+
+header .title {
+  color: #ffffff;
+}
+
+main {
+  margin-top: 55px;
+  margin-bottom: 60px;
+}
+
+main .list-title {
+  padding: 40px 0 40px 20px;
+  background-image: url(images-1/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+main .list-title > * {
+  display: inline-block;
+}
+
+main .list-title .portrait {
+  width: 80px;
+  height: 80px;
+  vertical-align: top;
+}
+
+main .list-title .information {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+main .list-title .information .box > * {
+  display: inline-block;
+}
+
+main .list-title .information .address {
+  margin-top: 10px;
+}
+
+main .list-title .information .add {
+  width: 15px;
+  vertical-align: top;
+}
+
+main .list-group {
+  margin-left: 13px;
+  font-size: 13px;
+}
+
+main .list-group > * {
+  padding: 20px 0 20px 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+main .list-group > * > * {
+  display: inline-block;
+}
+
+main .list-group .profession .text {
+  padding-left: 10px;
+  border-left: 3px solid #5ac0ce;
+}
+
+main .list-group .deal {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+main .list-group .deal .deal-1 {
+  margin-right: 10px;
+}
+
+main .list-group .deal .deal-1 > * {
+  display: inline-block;
+}
+
+main .list-group .deal .star {
+  margin-right: -3px;
+  vertical-align: middle;
+  transform: scale(0.8);
+}
+
+main .list-group .title.flag {
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid #cccccc;
+  color: #cccccc;
+}
+
+main .list-group .price .content {
+  color: red;
+  font-weight: 560;
+}
+
+main .list-group .intro {
+  display: flex;
+  justify-content: flex-start;
+}
+
+main .list-group .intro .title {
+  white-space: nowrap;
+  align-self: center;
+}
+
+main .list-group .intro .content {
+  padding-right: 50px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+  background: #ffffff;
+}
+
+footer button {
+  width: 47vw;
+  height: 40px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 5px;
+}
+
+footer .message {
+  background: #ffffff;
+  color: #5ac0ce;
+  border: 2px solid #5ac0ce;
+}
+
+footer .call {
+  background: #5ac0ce;
+  border: 2px solid #5ac0ce;
+  color: #ffffff;
+}

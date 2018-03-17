@@ -1,0 +1,241 @@
+$blue: #5ac0ce;
+$white: #ffffff;
+$grey: #cccccc;
+$border: 1px solid #ccc;
+
+@mixin inline-block {
+    & > * {
+        display: inline-block;
+    }
+}
+
+@mixin flexbox (
+    $jc: flex-start,
+     $ai: flex-start
+){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin bg-icon (
+    $width,
+    $height,
+    $x,
+    $y
+){
+    width: $width;
+    height: $height;
+    background: url(images-2/bg.png) $x $y;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    @include flexbox(center, center);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 60px;
+    background: $blue;
+
+    button {
+        width: 70px;
+        height: 35px;
+        border-radius: 7px;
+        border: none;
+    }
+
+    .b1 {
+        margin-right: -5px;
+        color: $white;
+        background: rgba($color: #000, $alpha: .2);
+    }
+
+    .b2 {
+        color: $blue;
+        background: $white;
+    }
+    
+    .icon {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        transform: scale(.9);
+        @include bg-icon(30px, 32px, -75px, -10px);
+    }
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    left: 0;
+    color: $grey;
+    
+    .item-list {
+        @include flexbox(space-between);
+        width: 100vw;
+        cursor: pointer;
+        
+        & > * {
+            width: 33.33vw;
+            text-align: center;
+        }
+        
+        .box {
+            border-bottom: $border;
+        }
+        
+        .box-1 {
+            height: 40px;
+            white-space: nowrap;
+            line-height: 40px;
+            @include inline-block;
+            background: $white;
+        }
+        
+        .box-1.flag {
+            border-right: 1px solid transparent;
+            border-image: -webkit-linear-gradient(top, #fff, #ccc, #fff) .5;
+        }
+        
+        .item:hover .box-2 {
+            display: block;
+        }
+        
+        .item:hover .box {
+            border-bottom: none;
+        }
+        
+        .box-2 {
+            background: $white;
+            display: none;
+            color: #000;
+            border: $border;
+            border-top: none;
+
+            .a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            .a:hover {
+                background: rgba($color: #000000, $alpha: .3);
+
+            }
+        }
+    }
+    
+    .carte {
+        width: 0;
+        height: 0;
+        border: 5px solid transparent;
+        border-top: 5px solid $grey;
+    }
+}
+
+main {
+    margin-top: 101px;
+    margin-bottom: 55px;
+
+    .item {
+        @include flexbox(space-between);
+        padding: 10px;
+        border-bottom: 1px solid $grey;
+    }
+
+    .item1 {
+        white-space: nowrap;
+        overflow: hidden;
+
+        & > * {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        }
+        .date {
+            @include inline-block;
+            color: $grey;
+            .icon {
+                vertical-align: top;
+                @include bg-icon(20px, 20px, -125px, -54px);
+                transform: scale(.9);
+                
+            }
+        }
+
+        .dates {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: 550;
+        }
+
+        .address {
+            @include inline-block;
+            color: $grey;
+            .icon {
+                vertical-align: top;
+                @include bg-icon(20px, 24px, -125px, -10px);
+                transform: scale(.9);
+                
+            }
+        }
+        
+    }
+
+    .item2 {
+        @include inline-block;
+        align-self: center;
+        white-space: nowrap;
+        color: red;
+        
+        .icon {
+            margin-left: 3px;
+            @include bg-icon(10px, 17px, -10px, -121px);
+            transform: scale(.9);
+        }
+    }
+
+}
+
+footer {
+    @include flexbox(space-around, center);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 10px;
+    width: 100vw;
+    height: 55px;
+    white-space: nowrap;
+    background: $white;
+    
+    .text {
+        padding-top: 27px;
+        padding-left: 3px;
+        font-size: 12px;
+        color: $blue;
+
+        &.flag {
+            color: $grey;
+            padding-left: 4px;
+        }
+    }
+
+    .home {
+        @include bg-icon(30px, 26px, -60px, -75px);
+    }
+    
+    .write {
+        margin-top: 10px;
+        @include bg-icon(45px, 45px, -10px, -10px);
+    }
+
+    .my {
+        @include bg-icon(30px, 26px, -10px, -75px);
+    }
+
+}
