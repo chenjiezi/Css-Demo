@@ -7,13 +7,13 @@
   text-decoration: underline;
 }
 
-.nav-bar .porfession {
+.nav-bar .profession {
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #888;
 }
 
-.nav-bar .porfession .text {
+.nav-bar .profession .text {
   color: #29b078;
 }
 
@@ -28,6 +28,10 @@
   -webkit-padding-start: 0;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
+}
+
+.direction ul .text {
+  color: #29b078 !important;
 }
 
 .direction li {

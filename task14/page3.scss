@@ -7,12 +7,12 @@ $green: #29b078;
             text-decoration: underline;
         }
     }
-    .porfession {
+    .profession {
         padding-top: 20px;
         padding-bottom: 20px;
         border-bottom: 1px solid #888;
         .text {
-            color: #29b078;
+            color: $green;
         }
     }
 }
@@ -26,6 +26,9 @@ $green: #29b078;
         -webkit-padding-start: 0;
         -webkit-margin-before: 0;
         -webkit-margin-after: 0;
+        .text {
+            color: $green !important;
+        }
     }
     li {
         list-style: none;
