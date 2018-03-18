@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+}
+
+a {
+  display: inline;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.container.box {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 50px;
+  background: #29bde0;
+  color: #ffffff;
+}
+
+header > * {
+  display: inline-block;
+}
+
+header .home {
+  width: 51px;
+  height: 42px;
+  background: url(images/bg4.png) -10px -235px;
+  transform: scale(0.7);
+}
+
+header .what {
+  width: 40px;
+  height: 42px;
+  background: url(images/bg4.png) -81px -235px;
+  transform: scale(0.7);
+}
+
+main {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+main .box1 {
+  color: #ffffff;
+  background: #29bde0;
+}
+
+main .box1 .container {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+main .box1 .victory {
+  width: 150px;
+  height: 100px;
+  padding-top: 30px;
+  margin: 40px auto;
+}
+
+main .box1 .result {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #fbb435;
+}
+
+main .box1 .infor2 > *,
+main .box1 .infor3 > * {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+main .box1 .infor2,
+main .box1 .infor3 {
+  white-space: nowrap;
+  line-height: 30px;
+}
+
+main .box1 .infor4 {
+  padding-bottom: 10px;
+}
+
+main .box2 .item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+}
+
+main .box2 .item .title {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+main .box2 .item .title > * {
+  display: inline-block;
+}
+
+main .box2 .item .time {
+  position: absolute;
+  right: 0;
+  color: #cccccc;
+  font-size: 12px;
+}
+
+main .box2 .item .content {
+  color: #aaaaaa;
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(153, 223, 240, 0.8);
+}
+
+footer > * {
+  width: 30%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+footer .a {
+  background: #f66f6f;
+}
+
+footer .b {
+  background: #fbb435;
+}

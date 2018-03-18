@@ -1,0 +1,175 @@
+$blue: #29bde0;
+$light-blue: #b9e9f5;
+$orange: #fbb435;
+$grey: #83b09a;
+
+@mixin flexbox (
+    $jc: flex-start,
+     $ai: flex-start
+){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin bg-icon (
+    $width,
+    $height,
+    $x,
+    $y
+){
+    width: $width;
+    height: $height;
+    background: url(images/bg2.png) $x $y;
+}
+
+
+body {
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+}
+
+header {
+    position: fixed;
+    @include flexbox(space-between, center);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background: $blue;
+    .menu {
+        @include bg-icon(39px, 40px, -82px, -10px);
+        transform: scale(.5, .6);
+    }
+    .title {
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .xx {
+        margin-bottom: 5px;
+        & > * {
+            display: inline-block;
+            width: 25px;
+            height: 1.5px;
+            background: #ffffff;
+            vertical-align: middle;
+        }
+        .l {
+            transform: rotate(45deg);
+        }
+        .ll {
+            margin-left: -29px;
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+nav {
+    margin-top: 50px;
+    & > * {
+        padding-left: 20px;
+        height: 45px;
+    }
+    .line1 {
+        background: $light-blue;
+        .text{
+            display: inline-block;
+            line-height: 45px;
+        }
+        .begin {
+            float: right;
+            @include flexbox(center, center);
+            margin-top: 5px;
+            margin-right: 10px;
+            width: 35px;
+            height: 35px;
+            background: $orange;
+            border-radius: 50%;
+            .triangle {
+                margin-left: 12px;
+                width: 0;
+                height: 0;
+                border: 10px solid transparent;
+                border-left-color: #fff;
+            }
+        }
+    }
+    .line2 {
+        background: $blue;
+        .text {
+            color: #ffffff;
+        }
+        .triangle {
+            width: 0;
+            height: 0;
+            border: 7px solid transparent;
+            border-top-color: $light-blue;
+        }
+    }
+}
+
+main {
+    margin-bottom: 100px;
+    background: $blue;
+    .items {
+        @include flexbox(space-around);
+        padding-top: 20px;
+        .item {
+            display: inline-block;
+            height: 30vw;
+            font-size: 5vw;
+            .box {
+                width: 25vw;
+                height: 25vw;
+                border: 3px solid #fff;
+                & > * {
+                    @include flexbox(center, center);
+                }
+                .box1 {
+                    height: 70%;
+                    background: $orange;
+                }
+                .box2 {
+                    height: 30%;
+                    background: $grey;
+                }
+                .four {
+                    @include flexbox(space-around);
+                    margin-top: 1.3vw;
+                    margin-left: -0.5vw;
+                    width: 25vw;
+                    height: 10vw;
+                    & > * {
+                        display: inline-block;
+                        width: 5vw;
+                    }
+                }
+                .four {
+                    display: none;
+                }
+                &:hover .four {
+                    display: flex;;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    position: fixed;
+    @include flexbox(center, center);
+    bottom: 0;
+    width: 100vw;
+    height: 60px;
+    background: $blue;
+    button {
+        width: 200px;
+        height: 40px;
+        border: none;
+        color: #ffffff;
+        background: $orange;
+    }
+}

@@ -1,0 +1,149 @@
+body {
+    background: #eee;
+}
+a {
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/* 1.mian布局右边的两个三角形使用绝对定位布局的 */
+
+/* header */
+
+
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #29bde0;
+}
+
+header .box {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.box .a {
+    width: 15px;
+    height: 5px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 2.2px;
+}
+
+
+
+/* main */
+
+
+
+main .box1,
+main .box2 {
+    background: #ffffff;
+    border: 1px solid #aaa;
+}
+
+main .box1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+/* main box1 */
+
+.box1 .text {
+    display: inline-block;
+    color: #999;
+}
+
+.box1 .con1 {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    width: 15px;
+    height: 15px;
+    transform: rotate(-135deg);
+}
+
+/* main box2 */
+
+.box2 {
+    text-align: center;
+}
+
+.box2 .title {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ffa07a;
+    color: #ff8c00;
+}
+
+.box2 .items > * {
+    margin: 10px auto;
+}
+  
+  .box2 .items {
+    display: flex;
+    flex-direction: column;
+}
+  
+  .item .edition {
+    margin-bottom: 10px;
+    
+    /* width自适应 */
+    width: 70vw;
+    height: 60px;
+    line-height: 60px;
+    color: #eeeeee;
+    background: #1e90ff;
+}
+  
+  .item .online {
+    color: #aaaaaa;
+}
+  
+/* 为右边的小三角形定位 */
+.flag {
+    position: relative;
+}
+
+.triangle {
+    position: absolute;
+    top: 125px;
+    right: -8px;
+    width: 0px;
+    height: 0px;
+    border: 15px solid transparent;
+    border-left-color: #ffa07a;
+} 
+
+.spots {
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.spots .spot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ddd;
+}
+  
+.spots .spot:hover {
+    background: #000;
+}
+
+.spots .b {
+    background: #000;
+}

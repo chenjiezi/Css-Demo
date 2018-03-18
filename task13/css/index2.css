@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* 如果不设置top，那么main设置margin-top时，会把header压下来，为什么呢? */
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: #29bde0;
+}
+
+
+
+/* header */
+
+
+
+.menu {
+    width: 39px;
+    height: 40px;
+    background: url(../images/bg2.png) -82px -10px;
+    transform: scale(.5,.6);
+}
+
+.title {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.xx {
+    margin-bottom: 5px;
+}
+
+.xx > * {
+    display: inline-block;
+    width: 25px;
+    height: 1.5px;
+    background: #fff;
+    vertical-align: middle;
+}
+
+.xx .l {
+    transform: rotate(45deg);
+}
+
+.xx .ll {
+    margin-left: -29px;
+    transform: rotate(-45deg);
+}
+
+
+
+/* nav */
+
+
+
+nav {
+    margin-top: 50px;
+}
+
+nav > * {
+    padding-left: 20px;
+    height: 45px;
+}
+
+nav .line1 {
+    background: #b9e9f5;
+}
+
+.line1 .text {
+    display: inline-block;
+    line-height: 45px;
+}
+
+.line1 .begin {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    background: #fbb435;
+    border-radius: 50%;
+}
+
+.begin .triangle {
+    margin-left: 12px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-left-color: #fff;
+}
+
+.line2 {
+    background: #29bde0;
+}
+
+.line2 .text {
+    color: #fff;
+}
+
+.line2 .triangle {
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-top-color: #b9e9f5;
+}
+
+
+/* main */
+
+
+
+main {
+    margin-bottom: 100px;
+    background: #29bde0;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+/* 将小正方形自适应 */
+
+
+.item {
+    display: inline-block;
+    height: 30vw;
+    font-size: 5vw;
+}
+
+.item .box {
+    width: 25vw;
+    height: 25vw;
+    border: 3px solid #fff;
+}
+
+.box > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.box .box1 {
+    /* width自适应 */
+    height: 70%;
+    background: #fbb435;
+}
+
+.box .box2 {
+    /* width自适应 */
+    height: 30%;
+    background: #83b09a;
+}
+
+.four {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;    
+    margin-top: 1.3vw;
+    margin-left: -.5vw;
+    width: 25vw;
+    height: 10vw;
+}
+
+.four > * {
+    display: inline-block;
+    width: 5vw;
+}
+
+.four {
+    display: none;
+}
+
+.box:hover .four {
+    display: flex;
+}
+
+
+/* footer */
+
+
+
+footer {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: #29bde0;
+}
+
+footer button {
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    background: #fbb435;
+    border: none;
+}
+
+
+
+  

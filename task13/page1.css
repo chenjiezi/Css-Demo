@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  background: #eee;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+header {
+  width: 100vw;
+  height: 50px;
+  background: #29bde0;
+}
+
+header .box {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+header .box .a {
+  width: 15px;
+  height: 5px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 2.2px;
+}
+
+main .box1,
+main .box2 {
+  background: #ffffff;
+  border: 1px solid #aaa;
+}
+
+main .box1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+main .box1 .text {
+  display: inline-block;
+  color: #999999;
+}
+
+main .box1 .con1 {
+  display: inline-block;
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #ccc;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  transform: rotate(-135deg);
+}
+
+main .box2 {
+  text-align: center;
+}
+
+main .box2 .title {
+  height: 50px;
+  line-height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ffa07a;
+  color: #ff8c00;
+}
+
+main .box2 .items {
+  display: flex;
+  flex-direction: column;
+}
+
+main .box2 .items > * {
+  margin: 10px auto;
+}
+
+main .box2 .items .item .edition {
+  margin-bottom: 10px;
+  width: 70vw;
+  height: 60px;
+  line-height: 60px;
+  color: #eeeeee;
+  background: #1e90ff;
+}
+
+main .box2 .items .item .online {
+  color: #aaaaaa;
+}
+
+main .flag {
+  position: relative;
+}
+
+main .flag .triangle {
+  position: absolute;
+  top: 125px;
+  right: -8px;
+  width: 0px;
+  height: 0px;
+  border: 15px solid transparent;
+  border-left-color: #ffa07a;
+}
+
+main .spots {
+  display: inline-block;
+  cursor: pointer;
+}
+
+main .spots .spot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ddd;
+}
+
+main .spots .spot:hover {
+  background: #000;
+}
+
+main .spots .b {
+  background: #000;
+}

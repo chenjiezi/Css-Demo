@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  background: #29bde0;
+}
+
+header .menu {
+  width: 39px;
+  height: 40px;
+  background: url(images/bg2.png) -82px -10px;
+  transform: scale(0.5, 0.6);
+}
+
+header .title {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+header .xx {
+  margin-bottom: 5px;
+}
+
+header .xx > * {
+  display: inline-block;
+  width: 25px;
+  height: 1.5px;
+  background: #ffffff;
+  vertical-align: middle;
+}
+
+header .xx .l {
+  transform: rotate(45deg);
+}
+
+header .xx .ll {
+  margin-left: -29px;
+  transform: rotate(-45deg);
+}
+
+nav {
+  margin-top: 50px;
+}
+
+nav > * {
+  padding-left: 20px;
+  height: 45px;
+}
+
+nav .line1 {
+  background: #b9e9f5;
+}
+
+nav .line1 .text {
+  display: inline-block;
+  line-height: 45px;
+}
+
+nav .line1 .begin {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  background: #fbb435;
+  border-radius: 50%;
+}
+
+nav .line1 .begin .triangle {
+  margin-left: 12px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-left-color: #fff;
+}
+
+nav .line2 {
+  background: #29bde0;
+}
+
+nav .line2 .text {
+  color: #ffffff;
+}
+
+nav .line2 .triangle {
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-top-color: #b9e9f5;
+}
+
+main {
+  margin-bottom: 100px;
+  background: #29bde0;
+}
+
+main .items {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+main .items .item {
+  display: inline-block;
+  height: 30vw;
+  font-size: 5vw;
+}
+
+main .items .item .box {
+  width: 25vw;
+  height: 25vw;
+  border: 3px solid #fff;
+}
+
+main .items .item .box > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .items .item .box .box1 {
+  height: 70%;
+  background: #fbb435;
+}
+
+main .items .item .box .box2 {
+  height: 30%;
+  background: #83b09a;
+}
+
+main .items .item .box .four {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 1.3vw;
+  margin-left: -0.5vw;
+  width: 25vw;
+  height: 10vw;
+}
+
+main .items .item .box .four > * {
+  display: inline-block;
+  width: 5vw;
+}
+
+main .items .item .box .four {
+  display: none;
+}
+
+main .items .item .box:hover .four {
+  display: flex;
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100vw;
+  height: 60px;
+  background: #29bde0;
+}
+
+footer button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+  background: #fbb435;
+}

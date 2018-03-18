@@ -1,0 +1,135 @@
+$blue: #29bde0;
+$border: 1px solid #aaa;
+@mixin mt-mb {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@mixin flexbox (
+    $jc: flex-start,
+     $ai: flex-start
+){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+body {
+    margin: 0;
+    background: #eee;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+header {
+    width: 100vw;
+    height: 50px;
+    background: $blue;
+    .box {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 10px;
+        .a {
+            width: 15px;
+            height: 5px;
+            border-bottom: 2px solid #fff;
+            margin-bottom: 2.2px;
+        }
+    }
+}
+
+main {
+    .box1,
+    .box2 {
+        background: #ffffff;
+        border: $border;
+    }
+
+    .box1 {
+        position: relative;
+        @include flexbox(center, center);
+        @include mt-mb;
+        height: 60px;
+        .text {
+            display: inline-block;
+            color: #999999;
+        }
+        .con1 {
+            display: inline-block;
+            position: absolute;
+            top: 22px;
+            right: 20px;
+            width: 15px;
+            height: 15px;
+            border: 3px solid #ccc;
+            border-top-color: transparent;
+            border-right-color: transparent;
+            transform: rotate(-135deg);
+        }
+    }
+
+    .box2 {
+        text-align: center;
+        .title {
+            height: 50px;
+            line-height: 50px;
+            @include mt-mb;
+            border-bottom: 1px solid #ffa07a;
+            color: #ff8c00;
+        }
+        .items {
+            display: flex;
+            flex-direction: column;
+            & > * {
+                margin: 10px auto;
+            }
+            .item {
+                .edition {
+                    margin-bottom: 10px;
+                    width: 70vw;
+                    height: 60px;
+                    line-height: 60px;
+                    color: #eeeeee;
+                    background: #1e90ff;
+                }
+                .online {
+                    color: #aaaaaa;
+                }
+            }
+        }
+    }
+    .flag {
+        position: relative;
+        .triangle {
+            position: absolute;
+            top: 125px;
+            right: -8px;
+            width: 0px;
+            height: 0px;
+            border: 15px solid transparent;
+            border-left-color: #ffa07a;
+        }
+    }
+    .spots {
+        display: inline-block;
+        cursor: pointer;
+
+        .spot {
+            display: inline-block;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #ddd;
+            &:hover {
+                background: #000;
+            }
+        }
+        .b {
+            background: #000;
+        }
+    }
+}
+

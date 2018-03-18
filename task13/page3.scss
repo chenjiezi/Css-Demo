@@ -1,0 +1,158 @@
+$blue: #29bde0;
+$pink: #f66f6f;
+$orange: #fbb435;
+
+
+@mixin inline-block {
+    & > * {
+        display: inline-block;
+    }
+}
+
+@mixin flexbox (
+    $jc: flex-start,
+    $ai: flex-start
+    ){
+        display: flex;
+        justify-content: $jc;
+        align-items: $ai;
+    }
+    
+    @mixin bg-icon (
+        $width,
+        $height,
+        $x,
+        $y
+        ){
+            width: $width;
+            height: $height;
+            background: url(images/bg4.png) $x $y;
+            transform: scale(.7);
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    color: #ffffff;
+    &:hover {
+        color: #ffffff;
+    }
+}
+
+.container.box {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+header {
+    position: fixed;
+    @include flexbox(space-between, center);
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    background: $blue;
+    color: #ffffff;
+    @include inline-block;
+    .home {
+        @include bg-icon(51px, 42px, -10px, -235px);
+    }
+    .what {
+        @include bg-icon(40px, 42px, -81px, -235px);
+    }
+
+}
+
+
+main {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    
+    
+    .box1 {
+        color: #ffffff;
+        background: $blue;
+        .container {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .victory {
+            width: 150px;
+            height: 100px;
+            padding-top: 30px;
+            margin: 40px auto;
+        }
+        .result {
+            margin-bottom: 20px;
+            font-size: 20px;
+            color: $orange;
+        }
+        
+            .infor2 > *,
+            .infor3 > * {
+                display: inline-block;
+                margin-right: 10px;
+            }
+            .infor2,
+            .infor3 {
+                white-space: nowrap;
+                line-height: 30px;
+            }
+            .infor4 {
+                padding-bottom: 10px;
+            }
+            
+    }
+    .box2 {
+        .item {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+            background: #fff;
+            .title {
+                position: relative;
+                margin-bottom: 5px;
+                @include inline-block;
+            }
+            .time {
+                position: absolute;
+                right: 0;
+                color: #cccccc;
+                font-size: 12px;
+            }
+            .content {
+                color: #aaaaaa;
+            }
+        }
+    }
+}
+
+footer {
+    position: fixed;
+    @include flexbox(space-around, center);
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: rgba(153, 223, 240, .8);
+    & > * {
+        width: 30%;
+        height: 40px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .a {
+        background: $pink;
+    }
+    .b {
+        background: $orange;
+    }
+}
