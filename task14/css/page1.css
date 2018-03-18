@@ -1,0 +1,252 @@
+
+
+/* main */
+
+
+
+
+main > * {
+    padding-top: 50px;
+}
+
+main .title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 550;
+}
+
+/* item */
+/* 把item整理在一个地方，方便管理 */
+
+.intro .item,
+.study .item,
+.students .item {
+    width: 25%;
+    float: left;
+}
+
+
+.links .item {
+    width: 10%;
+    float: left;
+    
+    /* 设置不换行的原因是有的文字比较多，会换行。
+    让它强制不换行，会超出width的范围，但在这样
+    无大碍。 */
+    white-space: nowrap;
+}
+
+
+
+/* intro */
+
+
+
+
+
+/* 背景图居中 */
+
+.intro {
+    margin-top: 80px;
+}
+
+.intro .icon {
+    margin: 0 auto 20px auto;
+}
+
+.intro .text {
+    text-align: center;
+    color: #aaaaaa;
+}
+
+.text.flag {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.jiade {
+    
+    box-sizing: border-box;
+    
+    padding-left: 50px;
+    border-left: 1px dashed #ccc;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.jiade .text {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.jiade .box > * {
+    display: inline-block;
+}
+
+/* 背景图 */
+.rocket .icon {
+    margin-bottom: 15px;
+    width: 43px;
+    height: 62px;
+    transform: scale(.85);
+    background: url(../images/8-1/bg8-1.png) -90px -10px;
+}
+
+.book .icon {
+    margin-bottom: 27px;
+    width: 60px;
+    height: 48px;
+    background: url(../images/8-1/bg8-1.png) -10px -10px;
+}
+
+.shape .icon {
+    width: 52px;
+    height: 55px;
+    background: url(../images/8-1/bg8-1.png) -10px -78px;
+}
+
+.box .user {
+    width: 13px;
+    height: 13px;
+    background: url(../images/8-1/bg8-1.png) -10px -153px;
+}
+
+
+
+
+
+/* study */
+
+        
+
+
+
+.study .icon {
+    width: 28px;
+    height: 26px;
+    background: url(../images/8-1/bg8-1.png) -90px -92px;
+}
+
+.study .item {
+    margin: 30px 0;
+    height: 70px;
+    display: flex;
+}
+
+.study .item > * {
+    box-sizing: border-box;
+    float: left;
+}
+
+.study .item .num {
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px #ddd;
+    color: #29b078;
+}
+
+
+.study .item .text {
+    padding-left: 20px;
+    width: 140px;
+    align-self: center;    
+}
+
+.study .item .icon {
+    margin-left: 5px;
+    align-self: center;    
+}
+
+
+
+
+/* students */
+
+
+.students .item {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.students .box {
+    border: 1px solid #ccc;
+    padding: 10px 30px 20px 30px;
+}
+
+.students .portrait {
+    transform: scale(.8);
+    text-align: center;
+}
+
+.students .name {
+    text-align: center;
+    font-weight: 550;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.students .text {
+    
+    /* 文本首行缩进 */
+    text-indent: 30px;
+    
+    color: #333333;
+}
+
+
+
+
+
+/* cooperate */
+
+
+
+.cooperate .item {
+/* 行内块不能和浮动一起存在吗 */
+/* display: inline-block; */
+    float: left;
+    width: 20%;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    background-color: #fff;
+}
+
+
+.cooperate .item > * {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* 给item内多包含一个div，才会完整显示boxshadow
+    还得左右margin4px */
+.cooperate .item > *:hover {
+    box-shadow: 0 0 2px 2px #ccc;
+}
+
+
+/* links */
+
+
+.links li {
+    color: #cccccc;
+}
+
+.links li a {
+    color: #cccccc ;
+    text-decoration: none;
+}
+
+.links li:hover a {
+    text-decoration: underline;
+}
+
+

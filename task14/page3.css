@@ -1,0 +1,219 @@
+.nav-bar a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+.nav-bar .porfession {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #888;
+}
+
+.nav-bar .porfession .text {
+  color: #29b078;
+}
+
+.direction {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.direction ul {
+  display: inline-block;
+  -webkit-padding-start: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+.direction li {
+  list-style: none;
+  display: inline-block;
+}
+
+.direction .title {
+  display: inline-block;
+}
+
+.develop .box {
+  position: relative;
+}
+
+.develop .box:hover .ios {
+  display: block;
+}
+
+.develop.container > *:nth-child(1) {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #aaa;
+}
+
+.develop .items .item {
+  float: left;
+  width: 30%;
+}
+
+.develop .items .item .box {
+  margin-top: 30px;
+  border: 1px solid #ccc;
+}
+
+.develop .items .item.flag {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.develop .table-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.develop .table-header .portrait img {
+  width: 110px;
+  height: 110px;
+  padding: 10px 0 10px 10px;
+}
+
+.develop .table-header .portrait,
+.develop .table-header .intro {
+  float: left;
+}
+
+.develop .table-header .portrait {
+  width: 40%;
+}
+
+.develop .table-header .intro {
+  width: 60%;
+}
+
+.develop .table-header .intro h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.develop .table-header .intro .text {
+  font-size: 12px;
+}
+
+.develop .table-header .intro > * {
+  padding-top: 20px;
+}
+
+.develop .table-body .num {
+  color: red;
+  font-weight: 550;
+}
+
+.develop .table-body .menkan .text,
+.develop .table-body .nandu .text,
+.develop .table-body .chengzhang > *,
+.develop .table-body .xique > * {
+  display: inline-block;
+}
+
+.develop .table-body .box-4 {
+  border-bottom: 1px solid #ccc;
+}
+
+.develop .table-body .box-4 > * {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  font-size: 14px;
+  padding: 10px 0 10px 10px;
+}
+
+.develop .table-body .box-4 .title {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.develop .table-body .box-4 .nandu,
+.develop .table-body .box-4 .xique {
+  border-left: 1px solid #ccc;
+}
+
+.develop .table-body .box-4 .menkan,
+.develop .table-body .box-4 .nandu {
+  border-bottom: 1px solid #ccc;
+}
+
+.develop .table-body .xinzi {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+
+.develop .table-body .xinzi .title {
+  width: 40%;
+  float: left;
+  align-self: center;
+  text-align: center;
+}
+
+.develop .table-body .xinzi .content {
+  width: 60%;
+  float: left;
+  box-sizing: border-box;
+  border-left: 1px solid #ccc;
+}
+
+.develop .table-body .xinzi .content > *:nth-last-child(1) {
+  border-bottom: none;
+}
+
+.develop .table-body .xinzi .year {
+  margin-left: 10px;
+  margin-right: 4vw;
+}
+
+.develop .table-body .xinzi .text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.develop .table-body .xinzi .text > * {
+  white-space: nowrap;
+}
+
+.develop .table-body .study,
+.develop .table-body .tishi {
+  padding: 10px 0 10px 10px;
+}
+
+.develop .table-body .study {
+  border-bottom: 1px solid #ccc;
+}
+
+.develop .table-body .tishi {
+  color: #cccccc;
+}
+
+.develop .ios {
+  position: absolute;
+  display: none;
+  top: 0;
+  z-index: 1;
+  text-align: center;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+}
+
+.develop .ios .title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.develop .ios .content {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+footer {
+  margin-top: 50px;
+}

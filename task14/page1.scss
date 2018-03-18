@@ -1,0 +1,167 @@
+$green: #29b078;
+@mixin bg-icon (
+    $width,
+    $height,
+    $x,
+    $y
+){
+    width: $width;
+    height: $height;
+    background: url(images/8-1/bg8-1.png) $x $y;
+}
+
+main {
+    .rocket .icon {
+        margin-bottom: 15px;
+        transform: scale(.85);
+        @include bg-icon(43px, 62px, -90px, -10px);
+    }
+    .book .icon {
+        margin-bottom: 27px;
+        @include bg-icon(60px, 48px, -10px, -10px);
+    }
+    .shape .icon {
+        @include bg-icon(52px, 55px, -10px, -78px);
+    }
+    .box .user {
+        @include bg-icon(13px, 13px, -10px, -153px);
+    }
+    & > * {
+        padding-top: 50px;
+    }
+    .title {
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: 550;
+    }
+    .intro .item,
+    .study .item,
+    .students .item {
+        width: 25%;
+        float: left;
+    }
+    .links .item {
+        width: 10%;
+        float: left;
+        white-space: nowrap;
+    }
+    .intro {
+        margin-top: 80px;
+        .icon {
+            margin: 0 auto 20px auto;
+        }
+        .text {
+            text-align: center;
+            color: #aaaaaa;
+        }
+        .text.flag {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .jiade {
+            box-sizing: border-box;
+            border-left: 1px dashed #ccc;
+            padding-left: 50px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            .text {
+                text-align: left;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                color: #000;
+            }
+            .box > * {
+                display: inline-block;
+
+            }
+        }
+    }
+    .study {
+        .icon {
+            @include bg-icon(28px, 26px, -90px, -92px);
+        }
+        .item {
+            margin: 30px 0;
+            height: 70px;
+            display: flex;
+            & > * {
+                box-sizing: border-box;
+                float: left;
+            }
+            .num {
+                text-align: center;
+                width: 65px;
+                height: 65px;
+                line-height: 65px;
+                border-radius: 50%;
+                box-shadow: 0 0 2px 2px #ddd;
+                color: $green;
+            }
+            .text {
+                padding-left: 20px;
+                width: 140px;
+                align-self: center;
+            }
+            .icon {
+                margin-left: 5px;
+                align-self: center;
+            }
+        }
+    }
+    .students {
+        .item {
+            box-sizing: border-box;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .box {
+            border: 1px solid #ccc;
+            padding: 10px 30px 20px 30px;
+        }
+        .portrait {
+            transform: scale(.8);
+            text-align: center;
+        }
+        .name {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 50px;
+            font-weight: 550;
+            font-size: 18px;
+        }
+        .text {
+            text-indent: 30px;
+            color: #333333;
+        }
+    }
+    .cooperate {
+        .item {
+            float: left;
+            width: 20%;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+            background: #ffffff;
+            & > * {
+                margin-left: 4px;
+                margin-right: 4px;
+            }
+            & > *:hover {
+                box-shadow: 0 0 2px 2px #ccc;
+            }
+        }
+    }
+    .links {
+        li {
+            color: #cccccc;
+            a {
+                color: #cccccc;
+                text-decoration: none;
+            }
+            &:hover a {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+

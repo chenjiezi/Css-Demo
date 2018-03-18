@@ -1,0 +1,184 @@
+main .rocket .icon {
+  margin-bottom: 15px;
+  transform: scale(0.85);
+  width: 43px;
+  height: 62px;
+  background: url(images/8-1/bg8-1.png) -90px -10px;
+}
+
+main .book .icon {
+  margin-bottom: 27px;
+  width: 60px;
+  height: 48px;
+  background: url(images/8-1/bg8-1.png) -10px -10px;
+}
+
+main .shape .icon {
+  width: 52px;
+  height: 55px;
+  background: url(images/8-1/bg8-1.png) -10px -78px;
+}
+
+main .box .user {
+  width: 13px;
+  height: 13px;
+  background: url(images/8-1/bg8-1.png) -10px -153px;
+}
+
+main > * {
+  padding-top: 50px;
+}
+
+main .title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 550;
+}
+
+main .intro .item,
+main .study .item,
+main .students .item {
+  width: 25%;
+  float: left;
+}
+
+main .links .item {
+  width: 10%;
+  float: left;
+  white-space: nowrap;
+}
+
+main .intro {
+  margin-top: 80px;
+}
+
+main .intro .icon {
+  margin: 0 auto 20px auto;
+}
+
+main .intro .text {
+  text-align: center;
+  color: #aaaaaa;
+}
+
+main .intro .text.flag {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+main .intro .jiade {
+  box-sizing: border-box;
+  border-left: 1px dashed #ccc;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+main .intro .jiade .text {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+main .intro .jiade .box > * {
+  display: inline-block;
+}
+
+main .study .icon {
+  width: 28px;
+  height: 26px;
+  background: url(images/8-1/bg8-1.png) -90px -92px;
+}
+
+main .study .item {
+  margin: 30px 0;
+  height: 70px;
+  display: flex;
+}
+
+main .study .item > * {
+  box-sizing: border-box;
+  float: left;
+}
+
+main .study .item .num {
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 50%;
+  box-shadow: 0 0 2px 2px #ddd;
+  color: #29b078;
+}
+
+main .study .item .text {
+  padding-left: 20px;
+  width: 140px;
+  align-self: center;
+}
+
+main .study .item .icon {
+  margin-left: 5px;
+  align-self: center;
+}
+
+main .students .item {
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+main .students .box {
+  border: 1px solid #ccc;
+  padding: 10px 30px 20px 30px;
+}
+
+main .students .portrait {
+  transform: scale(0.8);
+  text-align: center;
+}
+
+main .students .name {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-weight: 550;
+  font-size: 18px;
+}
+
+main .students .text {
+  text-indent: 30px;
+  color: #333333;
+}
+
+main .cooperate .item {
+  float: left;
+  width: 20%;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  background: #ffffff;
+}
+
+main .cooperate .item > * {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+main .cooperate .item > *:hover {
+  box-shadow: 0 0 2px 2px #ccc;
+}
+
+main .links li {
+  color: #cccccc;
+}
+
+main .links li a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+main .links li:hover a {
+  text-decoration: underline;
+}

@@ -1,0 +1,108 @@
+$green: #29b078;
+
+.pic {
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    &:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+}
+
+
+main {
+    .nav-bar {
+        padding: 15px 0 15px 10px;
+        .cooperate {
+            display: inline-block;
+            color: $green;
+        }
+    }
+    .lsider .box,
+    .rsider .box {
+        margin: 10px;
+        border: 1px solid #eee;
+        text-align: center;
+    }
+    .lsider {
+        float: left;
+        width: 25%;
+    }
+    .company {
+        text-align: center;
+        -webkit-padding-start: 0;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        cursor: pointer;
+        & > *:nth-last-child(1) {
+            margin-bottom: 30px;
+        }
+        .ul-box {
+            display: inline-block;
+            text-align-last: left;
+        }
+        li {
+            list-style: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            & > * {
+                display: inline-block;
+            }
+        }
+        .spot {
+            width: 8px;
+            height: 8px;
+            border: 1px solid #ff650e;
+            border-radius: 50%;        
+        }
+        .name {
+            color: $green;
+        }
+        li:hover .name {
+            color: #ff650e;
+        }
+        li:hover .spot {
+            background: #f9a372;
+        }
+    }
+    .rsider {
+        float: right;
+        width: 75%;
+        margin-bottom: 150px;
+        .title {
+            border-bottom: 1px solid #eee;
+            padding: 30px;
+        }
+        .tudou {
+            float: left;
+            width: 20%;
+            padding-top: 20px;
+        }
+        .text {
+            float: left;
+            width: 80%;
+            text-indent: 30px;
+        }
+        .article {
+            padding: 30px;
+            & > * {
+                text-indent: 30px;
+                margin-bottom: 30px;
+            }
+            & > *:nth-last-child(1) {
+                margin-bottom: 100px;
+            }
+            
+        }
+    }
+    .lsider h4 {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+    }
+
+    
+}

@@ -1,0 +1,493 @@
+
+
+body {
+    margin: 0;
+}
+
+
+/* 给父元素清楚浮动 */
+.container:after,
+.container::before {
+    display: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+/* 去掉自带属性 */
+nav ul, 
+footer ul {
+    -webkit-padding-start: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+/* 把li自带的属性去掉 */
+nav li,
+footer li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav a,
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a:hover,
+footer a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}   
+
+/* header */
+
+
+header .box{
+    height: 40px;
+    line-height: 40px;
+    
+}
+
+header .call,
+header .login {
+    display: inline-block;
+}
+
+.login .sina {
+    width: 27px;
+    height: 26px;
+    background: url(../images/bg.png) -57px -122px;
+}
+
+.login .qq {
+    width: 27px;
+    height: 26px;
+    background: url(../images/bg.png) -10px -122px;
+}
+
+.login .wechat {
+    width: 27px;
+    height: 26px;
+    background: url(../images/bg.png) -104px -122px;
+}
+
+.login > * {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+header .call {
+    float: left;
+    color: #29b078;
+    font-weight: 600; 
+    font-size: 12px;
+}
+
+header .login {
+    float: right;
+}
+
+
+
+/* nav */
+
+
+
+
+nav {
+    background: #29b078;
+}
+
+
+nav .logo {
+    width: 107px;
+    height: 49px;
+    background: url(../images/bg.png) -122px -10px;
+    align-self: center;
+}
+
+nav .box{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.navs > *{
+    padding: 30px 10px 35px 10px;
+    border-bottom: 2px solid #29b078;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.navs > *:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.navs a:hover {
+    text-decoration: none;
+}
+
+/* 
+这里不设置子元素为行内元素也可以实现弹性布局
+该不该设置呢 */
+nav .container > * {
+    /* white-space: nowrap; */
+}
+
+
+
+/* footer */
+/* .copyright */
+
+
+
+
+footer,
+.copyright {
+    background: #29b078;
+    color: #ffffff;
+}
+
+footer .box {
+    /* 在不确定四个方向都需要设置的时候，最好不要这样设置，
+    如果上面有设置左右margin值的话，就会被覆盖了。切记。 */
+    /* padding: 10px 0; */
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.two-dimension-code {
+    width: 92px;
+    height: 92px;
+    background: url(../images/bg.png) -10px -10px;
+}
+
+/* 版权 */
+.copyright {
+    border-top: 1px solid #ccc;
+    /* 这里看起来很舒服 */
+    font-size: .7rem;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* 不要固定宽度 */
+    /* height: 150px; */
+}
+
+footer .box > * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.change .title {
+    margin-bottom: 4.5vw;
+}
+
+.product .title {
+    margin-bottom: 2vw;
+}
+
+.product > *:nth-child(3) {
+    margin-top: 1vw;
+}
+
+.change .title,
+.product .title,
+.we .title {
+    font-weight: 550;
+}
+
+/* 响应式 */
+
+
+
+nav #check-box {
+    display: none;
+}
+
+
+nav .menu {
+    display: none;
+}
+
+/* links */
+    
+.links .content ul {
+    -webkit-padding-start: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    /* 第三个页面 */
+
+    /* develop */
+
+
+    .develop .item {
+        width: 45% !important;
+    }
+
+
+
+}
+
+@media screen and (max-width: 995px) {
+
+    /* intro */
+    .intro {
+        margin-top: 0 !important;
+    }
+
+    .intro.container > *:nth-child(2) {
+        height: 157px;
+    }
+
+    .intro .item {
+        width: 50% !important;
+    }
+
+    .intro .item.jiade,
+    .jiade .text{
+        text-align: center !important;
+    }
+
+    /* study */
+
+    .study .item {
+        width: 50% !important;
+    }
+
+    .study .box {
+        margin-left: 100px;
+    }
+
+    /* students */
+
+    .students .item {
+        width: 50% !important;
+        padding-bottom: 50px;
+    }
+
+    /* cooperate */
+
+    .cooperate .item {
+        width: 50% !important;
+        margin-bottom: 10px;
+    }
+
+    /* links */
+
+    .links .item {
+        width: 20% !important;
+    }
+
+    /* 页面二 */
+
+    /* rsider */
+
+    .rsider .text {
+        width: 100% !important;
+    }
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    /* nav */
+    
+    nav .box {
+        position: relative;
+        
+        height: auto;
+        display: block;
+        
+        /* 把logo下调一点 */
+        /* 因为logo是背景图，设置在背景图的标签下是没用效果的 */
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    
+    nav .navs > *{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        
+    }
+    
+    nav .logo {
+        transform: scale(.7);
+    }
+    
+    nav .navs {
+        display: none;
+    }
+    
+    nav .menu {
+        display: block;
+        
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        
+        transform: scale(.6);
+
+    }
+    
+    nav .menu:hover {
+        background: rgba(0, 0, 0, .3);
+    }
+    
+    #check-box:checked  ~ .navs {
+        display: block;
+    }
+
+
+    /* intro */
+
+    .intro .item {
+        width: 100% !important;
+    }
+
+    .intro > * {
+        padding-top: 20px;
+    }
+
+    .intro .item.jiade {
+        border: none;
+        padding: 20px 0 0 0;
+    }
+
+    /* study */
+
+    .study .item {
+        width: 100% !important;
+        float: none !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .study .box {
+        margin-left: 0;
+    }
+
+    .study .item .text{
+        margin-left: 6vw !important;
+        margin-right: 8vw !important;
+    }
+        
+    /* students */
+
+    .students .item {
+        width: 100% !important;
+    }
+    
+    /* 页面二 */
+
+
+    .lsider,
+    .rsider {
+        width: 100% !important;
+    }
+
+    /* 第三个页面 */
+
+    /* develop */
+
+
+    .develop .item {
+        width: 100% !important;
+    }
+
+    .develop .item.flag {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+
+    .develop .table-header > * {
+        width: auto !important;
+        float: none !important;
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 560px) {
+    
+    /* nav */
+    
+    nav .navs > * {
+        font-size: 18px;
+    }
+    
+    nav .menu {
+        top: 12px;
+        right: 10px;
+    }
+    
+    /* mycarousel */
+    
+    .carousel-control.left,
+    .carousel-control.right {
+        display: none;
+    }
+    
+    .carousel-indicators {
+        margin-bottom: -10px;
+    }
+    
+    
+    /* cooperate */
+    
+    .cooperate .item {
+        width: 100% !important;
+    }
+    
+    /* links */
+    
+    .links .content ul {
+        -webkit-padding-start: 0;
+    }
+    
+    .links .content li {
+        list-style: none;
+    }
+    
+    /* footer */
+    
+    footer .box {
+        display: block;
+    }
+    
+    
+}
+
+
+
