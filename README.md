@@ -98,7 +98,8 @@ pc:pica，大约6pt，1/6寸
 ### 学习路径：
 [模拟下拉选框](http://biaoyansu.com/13.3)    
 [background-position和雪碧图(CSS Sprites)用法](http://blog.csdn.net/bingkingboy/article/details/51059209)
-
+[自动生动雪碧图（工具)](https://www.toptal.com/developers/css/sprite-generator)
+[css实现垂直居中6种方法](https://www.cnblogs.com/Yirannnnnn/p/4933332.html)
 
 # TASK7：桌游精灵——一个完整的webApp，以bootstrap为基础满足更多不同的需求 
 #### PS:github pages加载网页有点慢，毕竟是免费的，所以想观看我的作品的话，耐心等待个几秒哈！！！
@@ -107,6 +108,8 @@ pc:pica，大约6pt，1/6寸
 [demo测试3](https://cjz08.github.io/Css-Demo/task7/index3.html)     
 ### demo总结：
 #### 1.HTML5的audio定义音频流； 2.处理半透明； 3.CSS3动画
+### 学习路径：
+[Bootstrap 教程](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)
 
 
 # TASK8：任务8:修真院——一个PC端的企业网站，以bootstrap为基础满足更多不同的需求   
@@ -114,21 +117,38 @@ pc:pica，大约6pt，1/6寸
 [demo测试2](https://cjz08.github.io/Css-Demo/task8/index2.html)     
 [demo测试3](https://cjz08.github.io/Css-Demo/task8/index3.html)     
 ### demo收获：
-#### 完成一个比较完整的PC端项目
+#### 完成一个比较完整的PC端项目,项目实现了轮播图，以及运用flex进行布局，掌握一些自适应的布局方法。
 ### 学习路径：
+[利用HTML和CSS实现常见的布局](https://segmentfault.com/a/1190000003931851)     
+[Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)     
+[这可能是史上最全的CSS自适应布局总结教程](http://www.cnblogs.com/qieguo/p/5421252.html?f=tt)     
+[手把手教你用纯css3实现轮播图效果](https://www.jianshu.com/p/28643f36011e)     
 
-## TASK9：护工列表页——一个最常见的移动端页面   
-[demo测试](https://cjz08.github.io/Css-Demo/task6/index.html)
+# TASK9：修真院——一个响应式的企业网站 （可以在移动端进行浏览） 
+[demo测试1](https://cjz08.github.io/Css-Demo/task9/index1.html)     
+[demo测试2](https://cjz08.github.io/Css-Demo/task9/index2.html)     
+[demo测试3](https://cjz08.github.io/Css-Demo/task9/index3.html)     
 ### demo总结：
+#### 在任务八的基础上，运用了媒体查询技术，做到响应式。增加网站布局开发的熟练度； 获得一个响应式的网站
 ### 学习路径：
+[《媒体查询——响应式设计》](https://www.w3cplus.com/css/advanced-html-css-lesson4-responsive-web-design.html)
 
 
-## TASK10：护工列表页——一个最常见的移动端页面   
-[demo测试](https://cjz08.github.io/Css-Demo/task6/index.html)
+# TASK10：51包装——一个常见的表单页面  
+[demo测试](https://cjz08.github.io/Css-Demo/task10/index.html)
 ### demo总结：
+#### CSS制作流程图； CSS模拟表单元素； 熟练响应式布局
+
+# TASK11-15：对前面4，5，6，7，8，9任务用sass进行重构页面。
+### ps：我的sass代码在上面的11-14任务里面
+### demo总结：
+本文介绍了sass最基本部分,你可以轻松地使用sass编写清晰、无冗余、语义化的css。对于sass提供的工具你已经有了一个比较深入的了解，同时也掌握了何时使用这些工具的指导原则。
+
+变量是sass提供的最基本的工具。通过变量可以让独立的css值变得可重用，无论是在一条单独的规则范围内还是在整个样式表中。变量、混合器的命名甚至sass的文件名，可以互换通用_和-。同样基础的是sass的嵌套机制。嵌套允许css规则内嵌套css规则，减少重复编写常用的选择器，同时让样式表的结构一眼望去更加清晰。sass同时提供了特殊的父选择器标识符&，通过它可以构造出更高效的嵌套。
+
+你也已经学到了sass的另一个重要特性，样式导入。通过样式导入可以把分散在多个sass文件中的内容合并生成到一个css文件，避免了项目中有大量的css文件通过原生的css @import带来的性能问题。通过嵌套导入和默认变量值，导入可以构建更强有力的、可定制的样式。混合器允许用户编写语义化样式的同时避免视觉层面上样式的重复。你不仅学到了如何使用混合器减少重复，同时学习到了如何使用混合器让你的css变得更加可维护和语义化。最后，我们学习了与混合器相辅相成的选择器继承。继承允许你声明类之间语义化的关系，通过这些关系可以保持你的css的整洁和可维护性。
 ### 学习路径：
-
-
+(Sass中文网)[https://www.sass.hk/docs/]
 
 
 
