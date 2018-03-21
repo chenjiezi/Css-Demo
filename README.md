@@ -6,7 +6,7 @@
 # [修真院](http://www.jnshu.com/occupation/1/task)   
 # TASK1：九宫格    
 [demo测试](https://cjz08.github.io/Css-Demo/task1/index.html)    
-![九宫格](http://jns.img.bucket.ks3-cn-beijing.ksyun.com/skill/1/ebf0dfb4-df28-4bb1-9499-d9504f117652.gif)
+![九宫格](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t1.gif)
 ### demo总结：   
 #### 任务一让我初步感受自适应，在页面宽度的变大变小时，九宫格会随之放大缩小，不会变形。   
 #### 单位：（这里只介绍比较常用的单位）    
