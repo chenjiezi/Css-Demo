@@ -48,7 +48,8 @@ pc:pica，大约6pt，1/6寸
 
 
 # TASK3：一个最简单的移动端页面    
-[demo测试](https://cjz08.github.io/Css-Demo/task3/index.html)
+[demo测试](https://cjz08.github.io/Css-Demo/task3/index.html)    
+![魔镜](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t3.gif)
 ### demo总结：
 #### 运用布局知识让布局更好地适应移动端，以及使用ps进行切图。
 切图的具体办法有：
@@ -73,7 +74,8 @@ pc:pica，大约6pt，1/6寸
 
 
 # TASK4：登录页——一个最常见的移动端页面    
-[demo测试](https://cjz08.github.io/Css-Demo/task4/index.html)
+[demo测试](https://cjz08.github.io/Css-Demo/task4/index.html)    
+![登录页](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t4.gif)     
 ### demo总结：
 #### 掌握positioning。
 ### 学习路径：
@@ -82,7 +84,8 @@ pc:pica，大约6pt，1/6寸
 
 
 # TASK5：护工个人主页——一个最常见的移动端页面    
-[demo测试](https://cjz08.github.io/Css-Demo/task5/index.html)
+[demo测试](https://cjz08.github.io/Css-Demo/task5/index.html)    
+![个人主页](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t5.gif)
 ### demo总结：
 #### 用css3的方法更好地拉伸背景图
 ### 学习路径：
@@ -91,7 +94,8 @@ pc:pica，大约6pt，1/6寸
 
 
 # TASK6：护工列表页——一个最常见的移动端页面   
-[demo测试](https://cjz08.github.io/Css-Demo/task6/index.html)
+[demo测试](https://cjz08.github.io/Css-Demo/task6/index.html)    
+
 ### demo总结：
 #### 1.解决垂直居中； 2.模拟下拉选框； 3.做出复杂的列表页; 4.掌握雪碧图的使用
 [任务六的总结](http://www.jnshu.com/daily/50637?dailyType=others&total=8&page=4&uid=21822&sort=0&orderBy=3)
@@ -103,9 +107,10 @@ pc:pica，大约6pt，1/6寸
 
 # TASK7：桌游精灵——一个完整的webApp，以bootstrap为基础满足更多不同的需求 
 #### PS:github pages加载网页有点慢，毕竟是免费的，所以想观看我的作品的话，耐心等待个几秒哈！！！
-[demo测试1](https://cjz08.github.io/Css-Demo/task7/index1.html)     
-[demo测试2](https://cjz08.github.io/Css-Demo/task7/index2.html)     
-[demo测试3](https://cjz08.github.io/Css-Demo/task7/index3.html)     
+#### [demo测试1](https://cjz08.github.io/Css-Demo/task7/index1.html)     
+#### [demo测试2](https://cjz08.github.io/Css-Demo/task7/index2.html)     
+#### [demo测试3](https://cjz08.github.io/Css-Demo/task7/index3.html)     
+ 
 ### demo总结：
 #### 1.HTML5的audio定义音频流； 2.处理半透明； 3.CSS3动画
 ### 学习路径：
@@ -113,9 +118,10 @@ pc:pica，大约6pt，1/6寸
       
 
 # TASK8：任务8:修真院——一个PC端的企业网站，以bootstrap为基础满足更多不同的需求   
-[demo测试1](https://cjz08.github.io/Css-Demo/task9/index1.html)     
-[demo测试2](https://cjz08.github.io/Css-Demo/task9/index2.html)     
-[demo测试3](https://cjz08.github.io/Css-Demo/task9/index3.html)     
+#### [demo测试1](https://cjz08.github.io/Css-Demo/task9/index1.html)     
+#### [demo测试2](https://cjz08.github.io/Css-Demo/task9/index2.html)     
+#### [demo测试3](https://cjz08.github.io/Css-Demo/task9/index3.html)     
+
 ### demo收获：
 #### 从一开始切图到完成公用布局以及全局布局，做了一个详细记录笔记，欢迎参考。
 #### [任务八总结](http://www.jnshu.com/daily/52131?dailyType=others&total=8&page=1&uid=21822&sort=0&orderBy=3)
@@ -128,9 +134,11 @@ pc:pica，大约6pt，1/6寸
       
             
 # TASK9：修真院——一个响应式的企业网站 （可以在移动端进行浏览） 
-[demo测试1](https://cjz08.github.io/Css-Demo/task9/index1.html)     
-[demo测试2](https://cjz08.github.io/Css-Demo/task9/index2.html)     
-[demo测试3](https://cjz08.github.io/Css-Demo/task9/index3.html)     
+#### [demo测试1](https://cjz08.github.io/Css-Demo/task9/index1.html)     
+#### [demo测试2](https://cjz08.github.io/Css-Demo/task9/index2.html)     
+#### [demo测试3](https://cjz08.github.io/Css-Demo/task9/index3.html)         
+![9-1](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t9-1.png) 
+![9-2](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t9-2.png) 
 ### demo总结：
 #### 在任务八的基础上，运用了媒体查询技术，做到响应式。增加网站布局开发的熟练度； 获得一个响应式的网站
 ### 学习路径：
@@ -138,7 +146,8 @@ pc:pica，大约6pt，1/6寸
       
       
 # TASK10：51包装——一个常见的表单页面  
-[demo测试](https://cjz08.github.io/Css-Demo/task10/index.html)
+[demo测试](https://cjz08.github.io/Css-Demo/task10/index.html)      
+![包装](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t10.png)    
 ### demo总结：
 #### CSS制作流程图； CSS模拟表单元素； 熟练响应式布局
 
