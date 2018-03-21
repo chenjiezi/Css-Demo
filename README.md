@@ -20,6 +20,7 @@
 继承父级的，假设html的font-size默认为16px，body字体大小定义为50%，那么在body里字体大小就是1em=8px了。
 可当你又定义了一个div，然后把字体设置成了50%，请问，现在div下的1em等于多少？因为继承了父级的值，
 现在这个div里的1em=4px，这么嵌套下去的话，抱歉，我数学不好！所有rem就出现了。
+![em](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/em.png)
 
 ### rem：
 是em的升级版，rem只会相对html的值，不会受到父级的影响，这样的好处在于：从em里的例子来讲，1rem始终会等于8px。
