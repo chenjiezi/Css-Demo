@@ -5,8 +5,9 @@
 #### 解决办法：给父元素添加伪类：after来清除浮动。
 # [修真院](http://www.jnshu.com/occupation/1/task)   
 # TASK1：九宫格    
-[demo测试](https://cjz08.github.io/Css-Demo/task1/index.html)
-### demo总结：   
+[demo测试](https://cjz08.github.io/Css-Demo/task1/index.html)    
+![九宫格](http://jns.img.bucket.ks3-cn-beijing.ksyun.com/skill/1/ebf0dfb4-df28-4bb1-9499-d9504f117652.gif)
+### demo总结：   
 #### 任务一让我初步感受自适应，在页面宽度的变大变小时，九宫格会随之放大缩小，不会变形。   
 #### 单位：（这里只介绍比较常用的单位）    
 ### px：   
@@ -14,8 +15,7 @@
    在网页中，px是固定单位。比如给一个图片width：100px;那么随着页面宽度的变大变小，图片的大小不会发生改变。
    像素是相对于显示器屏幕分辨率的相对长度单位。pc端上用px单位倒没有什么不同，但在移动端，屏幕分辨率种类偏多，不可能一个一个去适
    配，这是px单位就显得很无力，所以就要考虑用em和rem。   
-  
-  
+
 ### em：
 继承父级的，假设html的font-size默认为16px，body字体大小定义为50%，那么在body里字体大小就是1em=8px了。
 可当你又定义了一个div，然后把字体设置成了50%，请问，现在div下的1em等于多少？因为继承了父级的值，
