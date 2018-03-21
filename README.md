@@ -2,7 +2,7 @@
 #### 修真院免费提供css、js、java、ios、android等技术的练手小项目。通过完成修真院平台的css模块的15个任务。我的css水平提升了很多，感谢修真院。
 #### 对css的自适应，响应式，浮动，定位，flex布局，css sprite（雪碧图）等进行自学，以及制作下拉菜单和轮播图（纯css写的），掌握了bootstrap和sass的使用，并运用到项目里。在做项目遇到很多问题，在通过解决问题中，
 #### 掌握了这几个方面的优缺点，例如浮动，一个元素，里面的子元素浮动，会导致父元素的高度变为0，原因是子元素浮动，脱离了文档流所导致的。
-#### 解决办法：给父元素添加伪类：after来清楚浮动。
+#### 解决办法：给父元素添加伪类：after来清除浮动。
 # [修真院](http://www.jnshu.com/occupation/1/task)   
 # TASK1：九宫格    
 [demo测试](https://cjz08.github.io/Css-Demo/task1/index.html)
@@ -110,20 +110,23 @@ pc:pica，大约6pt，1/6寸
 #### 1.HTML5的audio定义音频流； 2.处理半透明； 3.CSS3动画
 ### 学习路径：
 [Bootstrap 教程](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)
-
+      
 
 # TASK8：任务8:修真院——一个PC端的企业网站，以bootstrap为基础满足更多不同的需求   
-[demo测试1](https://cjz08.github.io/Css-Demo/task8/index1.html)     
-[demo测试2](https://cjz08.github.io/Css-Demo/task8/index2.html)     
-[demo测试3](https://cjz08.github.io/Css-Demo/task8/index3.html)     
+[demo测试1](https://cjz08.github.io/Css-Demo/task9/index1.html)     
+[demo测试2](https://cjz08.github.io/Css-Demo/task9/index2.html)     
+[demo测试3](https://cjz08.github.io/Css-Demo/task9/index3.html)     
 ### demo收获：
+#### 从一开始切图到完成公用布局以及全局布局，做了一个详细记录笔记，欢迎参考。
+#### [任务八总结](http://www.jnshu.com/daily/52131?dailyType=others&total=8&page=1&uid=21822&sort=0&orderBy=3)
 #### 完成一个比较完整的PC端项目,项目实现了轮播图，以及运用flex进行布局，掌握一些自适应的布局方法。
 ### 学习路径：
 [利用HTML和CSS实现常见的布局](https://segmentfault.com/a/1190000003931851)     
 [Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)     
 [这可能是史上最全的CSS自适应布局总结教程](http://www.cnblogs.com/qieguo/p/5421252.html?f=tt)     
 [手把手教你用纯css3实现轮播图效果](https://www.jianshu.com/p/28643f36011e)     
-
+      
+            
 # TASK9：修真院——一个响应式的企业网站 （可以在移动端进行浏览） 
 [demo测试1](https://cjz08.github.io/Css-Demo/task9/index1.html)     
 [demo测试2](https://cjz08.github.io/Css-Demo/task9/index2.html)     
@@ -132,8 +135,8 @@ pc:pica，大约6pt，1/6寸
 #### 在任务八的基础上，运用了媒体查询技术，做到响应式。增加网站布局开发的熟练度； 获得一个响应式的网站
 ### 学习路径：
 [《媒体查询——响应式设计》](https://www.w3cplus.com/css/advanced-html-css-lesson4-responsive-web-design.html)
-
-
+      
+      
 # TASK10：51包装——一个常见的表单页面  
 [demo测试](https://cjz08.github.io/Css-Demo/task10/index.html)
 ### demo总结：
@@ -148,7 +151,7 @@ pc:pica，大约6pt，1/6寸
 
 你也已经学到了sass的另一个重要特性，样式导入。通过样式导入可以把分散在多个sass文件中的内容合并生成到一个css文件，避免了项目中有大量的css文件通过原生的css @import带来的性能问题。通过嵌套导入和默认变量值，导入可以构建更强有力的、可定制的样式。混合器允许用户编写语义化样式的同时避免视觉层面上样式的重复。你不仅学到了如何使用混合器减少重复，同时学习到了如何使用混合器让你的css变得更加可维护和语义化。最后，我们学习了与混合器相辅相成的选择器继承。继承允许你声明类之间语义化的关系，通过这些关系可以保持你的css的整洁和可维护性。
 ### 学习路径：
-(Sass中文网)[https://www.sass.hk/docs/]
+[Sass中文网](https://www.sass.hk/docs/)
 
 
 
