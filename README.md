@@ -5,8 +5,8 @@
 #### 解决办法：给父元素添加伪类：after来清除浮动。
 # [修真院](http://www.jnshu.com/occupation/1/task)   
 # TASK1：九宫格    
-[demo测试](https://cjz08.github.io/Css-Demo/task1/index.html)    
-![九宫格](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t1.gif)
+[demo测试](https://chenjiezi.github.io/Css-Demo/task1/index.html)    
+![九宫格](https://raw.githubusercontent.com/chenjiezi/Css-Demo/master/pic/t1.gif)
 ### demo总结：   
 #### 任务一让我初步感受自适应，在页面宽度的变大变小时，九宫格会随之放大缩小，不会变形。   
 #### 单位：（这里只介绍比较常用的单位）    
@@ -20,7 +20,7 @@
 继承父级的，假设html的font-size默认为16px，body字体大小定义为50%，那么在body里字体大小就是1em=8px了。
 可当你又定义了一个div，然后把字体设置成了50%，请问，现在div下的1em等于多少？因为继承了父级的值，
 现在这个div里的1em=4px，这么嵌套下去的话，抱歉，我数学不好！所有rem就出现了。
-![em](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/em.png)
+![em](https://raw.githubusercontent.com/chenjiezi/Css-Demo/master/pic/em.png)
 
 ### rem：
 是em的升级版，rem只会相对html的值，不会受到父级的影响，这样的好处在于：从em里的例子来讲，1rem始终会等于8px。
@@ -49,8 +49,8 @@ pc:pica，大约6pt，1/6寸
 
 
 # TASK3：一个最简单的移动端页面    
-[demo测试](https://cjz08.github.io/Css-Demo/task3/index.html)    
-![魔镜](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t3.gif)
+[demo测试](https://chenjiezi.github.io/Css-Demo/task3/index.html)    
+![魔镜](https://raw.githubusercontent.com/chenjiezi/Css-Demo/master/pic/t3.gif)
 ### demo总结：
 #### 运用布局知识让布局更好地适应移动端，以及使用ps进行切图。
 切图的具体办法有：
@@ -75,8 +75,8 @@ pc:pica，大约6pt，1/6寸
 
 
 # TASK4：登录页——一个最常见的移动端页面    
-[demo测试](https://cjz08.github.io/Css-Demo/task4/index.html)    
-![登录页](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t4.gif)     
+[demo测试](https://chenjiezi.github.io/Css-Demo/task4/index.html)    
+![登录页](https://raw.githubusercontent.com/chenjiezi/Css-Demo/master/pic/t4.gif)     
 ### demo总结：
 #### 掌握positioning。
 ### 学习路径：
@@ -85,8 +85,8 @@ pc:pica，大约6pt，1/6寸
 
 
 # TASK5：护工个人主页——一个最常见的移动端页面    
-[demo测试](https://cjz08.github.io/Css-Demo/task5/index.html)    
-![个人主页](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t5.gif)
+[demo测试](https://chenjiezi.github.io/Css-Demo/task5/index.html)    
+![个人主页](https://raw.githubusercontent.com/chenjiezi/Css-Demo/master/pic/t5.gif)
 ### demo总结：
 #### 用css3的方法更好地拉伸背景图
 ### 学习路径：
@@ -95,7 +95,7 @@ pc:pica，大约6pt，1/6寸
 
 
 # TASK6：护工列表页——一个最常见的移动端页面   
-[demo测试](https://cjz08.github.io/Css-Demo/task6/index.html)    
+[demo测试](https://chenjiezi.github.io/Css-Demo/task6/index.html)    
 
 ### demo总结：
 #### 1.解决垂直居中； 2.模拟下拉选框； 3.做出复杂的列表页; 4.掌握雪碧图的使用
@@ -108,9 +108,9 @@ pc:pica，大约6pt，1/6寸
 
 # TASK7：桌游精灵——一个完整的webApp，以bootstrap为基础满足更多不同的需求 
 #### PS:github pages加载网页有点慢，毕竟是免费的，所以想观看我的作品的话，耐心等待个几秒哈！！！
-#### [demo测试1](https://cjz08.github.io/Css-Demo/task7/index1.html)     
-#### [demo测试2](https://cjz08.github.io/Css-Demo/task7/index2.html)     
-#### [demo测试3](https://cjz08.github.io/Css-Demo/task7/index3.html)     
+#### [demo测试1](https://chenjiezi.github.io/Css-Demo/task7/index1.html)     
+#### [demo测试2](https://chenjiezi.github.io/Css-Demo/task7/index2.html)     
+#### [demo测试3](https://chenjiezi.github.io/Css-Demo/task7/index3.html)     
  
 ### demo总结：
 #### 1.HTML5的audio定义音频流； 2.处理半透明； 3.CSS3动画
@@ -119,9 +119,9 @@ pc:pica，大约6pt，1/6寸
       
 
 # TASK8：任务8:修真院——一个PC端的企业网站，以bootstrap为基础满足更多不同的需求   
-#### [demo测试1](https://cjz08.github.io/Css-Demo/task9/index1.html)     
-#### [demo测试2](https://cjz08.github.io/Css-Demo/task9/index2.html)     
-#### [demo测试3](https://cjz08.github.io/Css-Demo/task9/index3.html)     
+#### [demo测试1](https://chenjiezi.github.io/Css-Demo/task9/index1.html)     
+#### [demo测试2](https://chenjiezi.github.io/Css-Demo/task9/index2.html)     
+#### [demo测试3](https://chenjiezi.github.io/Css-Demo/task9/index3.html)     
 
 ### demo收获：
 #### 从一开始切图到完成公用布局以及全局布局，做了一个详细记录笔记，欢迎参考。
@@ -135,11 +135,11 @@ pc:pica，大约6pt，1/6寸
       
             
 # TASK9：修真院——一个响应式的企业网站 （可以在移动端进行浏览） 
-#### [demo测试1](https://cjz08.github.io/Css-Demo/task9/index1.html)     
-#### [demo测试2](https://cjz08.github.io/Css-Demo/task9/index2.html)     
-#### [demo测试3](https://cjz08.github.io/Css-Demo/task9/index3.html)         
-![9-1](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t9-1.png) 
-![9-2](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t9-2.png) 
+#### [demo测试1](https://chenjiezi.github.io/Css-Demo/task9/index1.html)     
+#### [demo测试2](https://chenjiezi.github.io/Css-Demo/task9/index2.html)     
+#### [demo测试3](https://chenjiezi.github.io/Css-Demo/task9/index3.html)         
+![9-1](https://raw.githubusercontent.com/chenjiezi/Css-Demo/master/pic/t9-1.png) 
+![9-2](https://raw.githubusercontent.com/chenjiezi/Css-Demo/master/pic/t9-2.png) 
 ### demo总结：
 #### 在任务八的基础上，运用了媒体查询技术，做到响应式。增加网站布局开发的熟练度； 获得一个响应式的网站
 ### 学习路径：
@@ -147,8 +147,8 @@ pc:pica，大约6pt，1/6寸
       
       
 # TASK10：51包装——一个常见的表单页面  
-[demo测试](https://cjz08.github.io/Css-Demo/task10/index.html)      
-![包装](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t10.png)    
+[demo测试](https://chenjiezi.github.io/Css-Demo/task10/index.html)      
+![包装](https://raw.githubusercontent.com/chenjiezi/Css-Demo/master/pic/t10.png)    
 ### demo总结：
 #### CSS制作流程图； CSS模拟表单元素； 熟练响应式布局
 
