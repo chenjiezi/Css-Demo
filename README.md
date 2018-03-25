@@ -5,7 +5,7 @@
 #### 解决办法：给父元素添加伪类：after来清除浮动。
 # [修真院](http://www.jnshu.com/occupation/1/task)   
 # TASK1：九宫格    
-[demo测试](https://cjz08.github.io/Css-Demo/task1/index.html)    
+[demo展示](https://cjz08.github.io/Css-Demo/task1/index.html)    
 ![九宫格](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t1.gif)
 ### demo总结：   
 #### 任务一让我初步感受自适应，在页面宽度的变大变小时，九宫格会随之放大缩小，不会变形。   
@@ -49,7 +49,7 @@ pc:pica，大约6pt，1/6寸
 
 
 # TASK3：一个最简单的移动端页面    
-[demo测试](https://cjz08.github.io/Css-Demo/task3/index.html)    
+[demo展示](https://cjz08.github.io/Css-Demo/task3/index.html)    
 ![魔镜](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t3.gif)
 ### demo总结：
 #### 运用布局知识让布局更好地适应移动端，以及使用ps进行切图。
@@ -75,7 +75,7 @@ pc:pica，大约6pt，1/6寸
 
 
 # TASK4：登录页——一个最常见的移动端页面    
-[demo测试](https://cjz08.github.io/Css-Demo/task4/index.html)    
+[demo展示](https://cjz08.github.io/Css-Demo/task4/index.html)    
 ![登录页](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t4.gif)     
 ### demo总结：
 #### 掌握positioning。
@@ -85,7 +85,7 @@ pc:pica，大约6pt，1/6寸
 
 
 # TASK5：护工个人主页——一个最常见的移动端页面    
-[demo测试](https://cjz08.github.io/Css-Demo/task5/index.html)    
+[demo展示](https://cjz08.github.io/Css-Demo/task5/index.html)    
 ![个人主页](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t5.gif)
 ### demo总结：
 #### 用css3的方法更好地拉伸背景图
@@ -95,7 +95,7 @@ pc:pica，大约6pt，1/6寸
 
 
 # TASK6：护工列表页——一个最常见的移动端页面   
-[demo测试](https://cjz08.github.io/Css-Demo/task6/index.html)    
+[demo展示](https://cjz08.github.io/Css-Demo/task6/index.html)    
 
 ### demo总结：
 #### 1.解决垂直居中； 2.模拟下拉选框； 3.做出复杂的列表页; 4.掌握雪碧图的使用
@@ -119,9 +119,9 @@ pc:pica，大约6pt，1/6寸
       
 
 # TASK8：任务8:修真院——一个PC端的企业网站，以bootstrap为基础满足更多不同的需求   
-#### [demo测试1](https://cjz08.github.io/Css-Demo/task9/index1.html)     
-#### [demo测试2](https://cjz08.github.io/Css-Demo/task9/index2.html)     
-#### [demo测试3](https://cjz08.github.io/Css-Demo/task9/index3.html)     
+#### [demo展示1](https://cjz08.github.io/Css-Demo/task9/index1.html)     
+#### [demo展示2](https://cjz08.github.io/Css-Demo/task9/index2.html)     
+#### [demo展示3](https://cjz08.github.io/Css-Demo/task9/index3.html)     
 
 ### demo收获：
 #### 从一开始切图到完成公用布局以及全局布局，做了一个详细记录笔记，欢迎参考。
@@ -135,9 +135,9 @@ pc:pica，大约6pt，1/6寸
       
             
 # TASK9：修真院——一个响应式的企业网站 （可以在移动端进行浏览） 
-#### [demo测试1](https://cjz08.github.io/Css-Demo/task9/index1.html)     
-#### [demo测试2](https://cjz08.github.io/Css-Demo/task9/index2.html)     
-#### [demo测试3](https://cjz08.github.io/Css-Demo/task9/index3.html)         
+#### [demo展示1](https://cjz08.github.io/Css-Demo/task9/index1.html)     
+#### [demo展示2](https://cjz08.github.io/Css-Demo/task9/index2.html)     
+#### [demo展示3](https://cjz08.github.io/Css-Demo/task9/index3.html)         
 ![9-1](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t9-1.png) 
 ![9-2](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t9-2.png) 
 ### demo总结：
@@ -147,7 +147,7 @@ pc:pica，大约6pt，1/6寸
       
       
 # TASK10：51包装——一个常见的表单页面  
-[demo测试](https://cjz08.github.io/Css-Demo/task10/index.html)      
+[demo展示](https://cjz08.github.io/Css-Demo/task10/index.html)      
 ![包装](https://raw.githubusercontent.com/cjz08/Css-Demo/master/pic/t10.png)    
 ### demo总结：
 #### CSS制作流程图； CSS模拟表单元素； 熟练响应式布局
