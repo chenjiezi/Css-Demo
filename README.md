@@ -1,6 +1,6 @@
 # 我的作品    
 PS:github pages加载网页有点慢，毕竟是免费的，所以想观看我的作品的话，耐心等待个几秒哈！！！       
-#### <a href="https://chenjiezi.github.io/Css-Demo/task1/index.html">自适应九宫格</a>（移动端浏览）
+#### <a target="_blank" href="https://chenjiezi.github.io/Css-Demo/task1/index.html">自适应九宫格</a>（移动端浏览）
     
 #### [移动端页面--魔镜](https://chenjiezi.github.io/Css-Demo/task3/index.html?_blank)    
 #### [移动端页面--登陆页](https://chenjiezi.github.io/Css-Demo/task4/index.html?_blank)        
