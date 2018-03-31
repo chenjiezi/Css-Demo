@@ -1,5 +1,19 @@
-# Css-Demo
-#### 修真院免费提供css、js、java、ios、android等技术的练手小项目。通过完成修真院平台的css模块的15个任务。我的css水平提升了很多，感谢修真院。
+# 导航      
+#### [自适应九宫格](https://chenjiezi.github.io/Css-Demo/task1/index.html)（移动端浏览）     
+#### [移动端页面--魔镜](https://chenjiezi.github.io/Css-Demo/task3/index.html)    
+#### [移动端页面--登陆页](https://chenjiezi.github.io/Css-Demo/task4/index.html)        
+#### [移动端页面--护工个人主页](https://chenjiezi.github.io/Css-Demo/task5/index.html)  
+#### [移动端页面--护工列表页](https://chenjiezi.github.io/Css-Demo/task6/index.html)
+#### [桌游精灵1——一个完整的webApp，以bootstrap为基础满足更多不同的需求 ](https://chenjiezi.github.io/Css-Demo/task7/index1.html)
+#### [桌游精灵2——一个完整的webApp，以bootstrap为基础满足更多不同的需求 ](https://chenjiezi.github.io/Css-Demo/task7/index2.html)
+#### [桌游精灵3——一个完整的webApp，以bootstrap为基础满足更多不同的需求 ](https://chenjiezi.github.io/Css-Demo/task7/index3.html)
+#### [响应式的企业网站--demo展示1](https://chenjiezi.github.io/Css-Demo/task9/index1.html)         
+#### [响应式的企业网站--demo展示2](https://chenjiezi.github.io/Css-Demo/task9/index2.html)         
+#### [响应式的企业网站--demo展示3](https://chenjiezi.github.io/Css-Demo/task9/index3.html)   
+#### [51包装——一个常见的表单页面](https://chenjiezi.github.io/Css-Demo/task10/index.html)
+
+
+#### 修真院免费提供css、js等技术的练手小项目。通过完成修真院平台的css模块的15个任务。我的css水平提升了很多，感谢修真院。
 #### 对css的自适应，响应式，浮动，定位，flex布局，css sprite（雪碧图）等进行自学，以及制作下拉菜单和轮播图（纯css写的），掌握了bootstrap和sass的使用，并运用到项目里。在做项目遇到很多问题，在通过解决问题中，
 #### 掌握了这几个方面的优缺点，例如浮动，一个元素，里面的子元素浮动，会导致父元素的高度变为0，原因是子元素浮动，脱离了文档流所导致的。
 #### 解决办法：给父元素添加伪类：after来清除浮动。
