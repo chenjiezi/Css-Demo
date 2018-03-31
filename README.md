@@ -1,17 +1,17 @@
 # 我的作品    
 PS:github pages加载网页有点慢，毕竟是免费的，所以想观看我的作品的话，耐心等待个几秒哈！！！       
-#### [自适应九宫格](https://chenjiezi.github.io/Css-Demo/task1/index.html)（移动端浏览）     
-#### [移动端页面--魔镜](https://chenjiezi.github.io/Css-Demo/task3/index.html)    
-#### [移动端页面--登陆页](https://chenjiezi.github.io/Css-Demo/task4/index.html)        
-#### [移动端页面--护工个人主页](https://chenjiezi.github.io/Css-Demo/task5/index.html)  
-#### [移动端页面--护工列表页](https://chenjiezi.github.io/Css-Demo/task6/index.html)
-#### [桌游精灵1——一个完整的webApp，以bootstrap为基础满足更多不同的需求 ](https://chenjiezi.github.io/Css-Demo/task7/index1.html)
-#### [桌游精灵2——一个完整的webApp，以bootstrap为基础满足更多不同的需求 ](https://chenjiezi.github.io/Css-Demo/task7/index2.html)
-#### [桌游精灵3——一个完整的webApp，以bootstrap为基础满足更多不同的需求 ](https://chenjiezi.github.io/Css-Demo/task7/index3.html)
-#### [响应式的企业网站--demo展示1](https://chenjiezi.github.io/Css-Demo/task9/index1.html)         
-#### [响应式的企业网站--demo展示2](https://chenjiezi.github.io/Css-Demo/task9/index2.html)         
-#### [响应式的企业网站--demo展示3](https://chenjiezi.github.io/Css-Demo/task9/index3.html)   
-#### [51包装——一个常见的表单页面](https://chenjiezi.github.io/Css-Demo/task10/index.html)
+#### [自适应九宫格](https://chenjiezi.github.io/Css-Demo/task1/index.html?_blank)（移动端浏览）     
+#### [移动端页面--魔镜](https://chenjiezi.github.io/Css-Demo/task3/index.html?_blank)    
+#### [移动端页面--登陆页](https://chenjiezi.github.io/Css-Demo/task4/index.html?_blank)        
+#### [移动端页面--护工个人主页](https://chenjiezi.github.io/Css-Demo/task5/index.html?_blank)  
+#### [移动端页面--护工列表页](https://chenjiezi.github.io/Css-Demo/task6/index.html?_blank)
+#### [桌游精灵1——一个完整的webApp，以bootstrap为基础满足更多不同的需求 ](https://chenjiezi.github.io/Css-Demo/task7/index1.html?_blank)
+#### [桌游精灵2——一个完整的webApp，以bootstrap为基础满足更多不同的需求 ](https://chenjiezi.github.io/Css-Demo/task7/index2.html?_blank)
+#### [桌游精灵3——一个完整的webApp，以bootstrap为基础满足更多不同的需求 ](https://chenjiezi.github.io/Css-Demo/task7/index3.html?_blank)
+#### [响应式的企业网站--demo展示1](https://chenjiezi.github.io/Css-Demo/task9/index1.html?_blank)         
+#### [响应式的企业网站--demo展示2](https://chenjiezi.github.io/Css-Demo/task9/index2.html?_blank)         
+#### [响应式的企业网站--demo展示3](https://chenjiezi.github.io/Css-Demo/task9/index3.html?_blank)   
+#### [51包装——一个常见的表单页面](https://chenjiezi.github.io/Css-Demo/task10/index.html?_blank)
 
 
 #### 修真院免费提供css、js等技术的练手小项目。通过完成修真院平台的css模块的15个任务。我的css水平提升了很多，感谢修真院。
